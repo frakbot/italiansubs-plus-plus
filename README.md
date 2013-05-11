@@ -29,6 +29,7 @@ The extensions, its features and version history are in Italian, since the websi
 
 ## Version History
 
+* **v1.1.5:** Minor bug fix a Better ITASA
 * **v1.1.4:** bugfix per grafica natalizia.
 * **v1.1.3:** bugfix per sistemi Mac.
 * **v1.1.2:** l'apertura di tab multiple non fa perdere il focus alla tab corrente.
