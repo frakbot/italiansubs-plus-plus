@@ -6,7 +6,7 @@
 
 [![Get it it from the Chrome WebStore](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_Badge_v2_340x96.png "Get it it from the Chrome WebStore")](https://chrome.google.com/webstore/detail/italiansubs++/pmgjnimdciihbnpncflnkcmjpkmklooh)
 
-The extensions, its features and version history are in Italian, since the website is targeted to Italian speakers.
+The extension, its features and version history are in Italian, since the website is targeted to Italian speakers.
 
 ## Authors
 
