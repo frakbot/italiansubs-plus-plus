@@ -1,0 +1,18 @@
+.post_wrapper {
+    position:   relative;
+}
+
+.post {
+    min-height: 0px;
+}
+
+.postarea {
+    min-height: 0px;
+}
+
+/*
+.moderatorbar {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-calc(100% - 13em);
+}*/
