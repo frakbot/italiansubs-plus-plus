@@ -223,6 +223,7 @@ var asap = function() {
   chrome.extension.sendRequest({mStorage: "kitkat-mode"}, function(response) {
     if (response === "true") {
       injectCss('css/roboto.css');
+      injectCss('css/plus-roboto.css');
       injectCss('css/plus-kitkat.css');
       // Itasa++ / invio la statistica a GA
       tryTrack('Action', 'KitKat Mode', window.location.pathname, 1);

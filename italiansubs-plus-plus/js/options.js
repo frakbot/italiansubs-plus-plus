@@ -11,19 +11,19 @@ var now = function() {
 };
 
 window.onload = function() {
-  chkBetterItasa = document.getElementById("chk-better-itasa");
-  chkUnreadReplies = document.getElementById("chk-unread-replies");
-  chkUnreadBoard = document.getElementById("chk-unread-board");
-  chkHighContrast = document.getElementById("chk-high-contrast");
-  chkShowSeparator = document.getElementById("chk-show-separator");
-  chkMiniFont = document.getElementById("chk-mini-font");
-  chkMaxiFont = document.getElementById("chk-maxi-font");
-  chkDroidMode = document.getElementById("chk-droid-mode");
-  chkKitKatMode = document.getElementById("chk-kitkat-mode");
-  chkForumOverlay = document.getElementById("chk-forum-overlay");
-  chkHighlightedMenu = document.getElementById("chk-highlighted-menu");
-  chkYvonneSpoiler = document.getElementById("chk-yvonne-spoiler");
-  chkShorterPost = document.getElementById("chk-shorter-post");
+  var chkBetterItasa = document.getElementById("chk-better-itasa");
+  var chkUnreadReplies = document.getElementById("chk-unread-replies");
+  var chkUnreadBoard = document.getElementById("chk-unread-board");
+  var chkHighContrast = document.getElementById("chk-high-contrast");
+  var chkShowSeparator = document.getElementById("chk-show-separator");
+  var chkMiniFont = document.getElementById("chk-mini-font");
+  var chkMaxiFont = document.getElementById("chk-maxi-font");
+  var chkDroidMode = document.getElementById("chk-droid-mode");
+  var chkKitKatMode = document.getElementById("chk-kitkat-mode");
+  var chkForumOverlay = document.getElementById("chk-forum-overlay");
+  var chkHighlightedMenu = document.getElementById("chk-highlighted-menu");
+  var chkYvonneSpoiler = document.getElementById("chk-yvonne-spoiler");
+  var chkShorterPost = document.getElementById("chk-shorter-post");
 
   chkBetterItasa.checked = (localStorage['better-itasa'] === "true");
   chkUnreadReplies.checked = (localStorage['unread-replies'] === "true");
@@ -139,9 +139,9 @@ window.onload = function() {
   });
 
   $("#chk-kitkat-mode").change(function() {
-    var check = $("#chk-droid-mode").is(':checked');
+    var check = $("#chk-kitkat-mode").is(':checked');
     localStorage['kitkat-mode'] = check;
-    tryTrack('Opzioni', 'Font Roboto', now(), check ? 1 : -1);
+    tryTrack('Opzioni', 'KitKat mode', now(), check ? 1 : -1);
   });
 
   $("#chk-forum-overlay").change(function() {
