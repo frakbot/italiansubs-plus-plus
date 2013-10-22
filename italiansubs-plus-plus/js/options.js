@@ -19,6 +19,7 @@ window.onload = function() {
   chkMiniFont = document.getElementById("chk-mini-font");
   chkMaxiFont = document.getElementById("chk-maxi-font");
   chkDroidMode = document.getElementById("chk-droid-mode");
+  chkKitKatMode = document.getElementById("chk-kitkat-mode");
   chkForumOverlay = document.getElementById("chk-forum-overlay");
   chkHighlightedMenu = document.getElementById("chk-highlighted-menu");
   chkYvonneSpoiler = document.getElementById("chk-yvonne-spoiler");
@@ -32,6 +33,7 @@ window.onload = function() {
   chkMiniFont.checked = (localStorage['mini-font'] === "true");
   chkMaxiFont.checked = (localStorage['maxi-font'] === "true");
   chkDroidMode.checked = (localStorage['droid-mode'] === "true");
+  chkKitKatMode.checked = (localStorage['kitkat-mode'] === "true");
   chkForumOverlay.checked = (localStorage['forum-overlay'] === "true");
   chkHighlightedMenu.checked = (localStorage['highlighted-menu'] === "true");
   chkYvonneSpoiler.checked = (localStorage['yvonne-spoiler'] === "true");
@@ -133,6 +135,12 @@ window.onload = function() {
   $("#chk-droid-mode").change(function() {
     var check = $("#chk-droid-mode").is(':checked');
     localStorage['droid-mode'] = check;
+    tryTrack('Opzioni', 'Font Roboto', now(), check ? 1 : -1);
+  });
+
+  $("#chk-kitkat-mode").change(function() {
+    var check = $("#chk-droid-mode").is(':checked');
+    localStorage['kitkat-mode'] = check;
     tryTrack('Opzioni', 'Font Roboto', now(), check ? 1 : -1);
   });
 
