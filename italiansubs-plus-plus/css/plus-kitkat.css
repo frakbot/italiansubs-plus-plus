@@ -1,3 +1,10 @@
-body {
-    background-color: #ee0000;
+[id^="subject_"] > a {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+#keyInfo div#smalltext {
+    font-family: "Roboto Light";
+    font-size: 12px;
+    color: green;
 }
