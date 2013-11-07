@@ -62,10 +62,19 @@ div.keyinfo > div.smalltext > strong {
 }
 
 /* Post author */
+div.poster * {
+    font-family: "Roboto Condensed";	
+	font-size: 12px;
+    color: #666 !important;
+}
+
+div.poster > h4 {
+    margin-bottom: 16px;
+}
+
 div.poster > h4 > a {
-    font-family: "Roboto Condensed";
-    font-size: 18px;
-    color: #666;
+    font-size: 20px !important;
+	padding-left: 6px;
 }
 
 /* Horizontal rulers */
@@ -117,31 +126,6 @@ ul.like_separated_button li.unlike_button a {
 	margin: 0 0 1rem;
     border-top: 1px solid #aaa;
 	border-radius: 3px;
-	animation:fly-in-from-left .5s 1s ease both;
-	transform-origin:top left;
-}
-
-.windowbg:nth-child(even), 
-.windowbg2:nth-child(even), 
-.topslice:nth-child(even), 
-.botslice:nth-child(even) {
-  animation-name:fly-in-from-right;
-  animation-delay:1.1s;
-  transform-origin:top right;
-}
-
-@keyframes fly-in-from-left {
-  from {
-    transform:translateY(15rem) rotate(15deg);
-    opacity:0;
-  }
-}
-
-@keyframes fly-in-from-right {
-  from {
-    transform:translateY(15rem) rotate(-15deg);
-    opacity:0;
-  }
 }
 
 .post_separator {
@@ -204,12 +188,7 @@ div#main_menu ul li a {
 	color: #333;
 }
 
-button:hover, 
-input[type="button"]:hover, 
-input[type="submit"]:hover, 
-input[type="reset"]:hover, 
-.buttonlist ul li a:hover,
-div#main_menu ul li a:hover {
+button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, .buttonlist ul li a:hover, div#main_menu ul li a:hover {
 	background: #A6DAED;
         
 	border-left-color: #30AAD2;
@@ -223,15 +202,25 @@ div#main_menu ul li a:hover {
 }
 
 .buttonlist ul li a.active,
-button:enabled:active,
-input[type="button"]:enabled:active,
-input[type="submit"]:enabled:active,
-input[type="reset"]:enabled:active,
 button:enabled.active,
 input[type="button"]:enabled.active,
 input[type="submit"]:enabled.active,
 input[type="reset"]:enabled.active,
-div#main_menu ul li a:enabled.active {
+div#main_menu ul li .active {
+	background: #59C1E8;
+        
+	border-left-color: #57BCE2;
+	border-right-color: #57BCE2;
+	border-top-color: #85D2EE;
+	border-bottom-color: #4597B5;
+}
+
+.buttonlist ul li a:active,
+button:enabled:active,
+input[type="button"]:enabled:active,
+input[type="submit"]:enabled:active,
+input[type="reset"]:enabled:active,
+div#main_menu ul li a:active {
 	background: #59C1E8;
         
 	border-left-color: #57BCE2;
@@ -243,4 +232,138 @@ div#main_menu ul li a:enabled.active {
 /* Main menu */
 div#main_menu ul li  {
 	color: red !important;
+}
+
+/* Styles for the standard dropdown menus.
+------------------------------------------------------- */
+#main_menu
+{
+	padding: 0 0.5em;
+	float: left;
+	margin: 0;
+	width: 98%;
+}
+
+.dropmenu, .dropmenu ul
+{
+	list-style: none;
+	line-height: 1em;
+	padding: 0;
+	margin: 0;
+}
+
+/* the background's first level only */
+.dropmenu li ul {
+	position: absolute;
+	width: 19.2em;
+	z-index: 90;
+	overflow: hidden;
+	padding: 0 0 0 0;
+	
+	-webkit-opacity: 0;
+		    opacity: 0;
+	
+	-webkit-transform-origin: 100% 0%;
+		    transform-origin: 100% 0%;
+	
+	-webkit-transition-property: -webkit-opacity;
+	-webkit-transition-duration: .25s;
+	-webkit-transition-timing-function: ease;
+	
+	transition-property: opacity;
+	transition-duration: .25s;
+	transition-timing-function: ease;
+	
+	background: url(http://developer.android.com/assets/images/more_mid.png);
+}
+
+.dropmenu li li
+{
+	border-left: 0px;
+	border-right: 0px
+}
+
+.dropmenu li ul ul
+{
+	margin: -1.8em 0 0 13em;
+}
+.dropmenu li a.firstlevel
+{
+	background-color: transparent;
+    border-radius: 2px;
+}
+
+/* the active button */
+.dropmenu li a.active
+{
+	background-color: transparentF;
+    border-radius: 2px;
+    color: #fff;
+	font-weight: bold;
+}
+
+/* the hover effects */
+.dropmenu li a.firstlevel:hover, .dropmenu li:hover a.firstlevel
+{
+	background-color: transparent;
+    border-radius: 0px;
+    color: #3E606F;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* the hover effects on level2 and 3 */
+.dropmenu li li a:hover, .dropmenu li li:hover>a
+{
+	background: transparent;
+	color: #3E606F;
+	text-decoration: none;
+}
+
+.dropmenu li:hover ul ul, .dropmenu li:hover ul ul ul
+{
+	top: -999em;
+}
+.dropmenu li li:hover ul
+{
+	top: auto;
+}
+
+.dropmenu li:hover ul
+{
+	display: block;
+	opacity:1;
+    -webkit-transition-property:height,  -webkit-opacity;
+}
+
+.dropmenu li li.additional_items
+{
+	background-color: #fff;
+}
+
+/* Search bar */
+#search_form {
+	height: 30px;
+}
+
+#search_form input {
+	position: relative;
+	top: 16%;
+}
+
+#search_form input[type="submit"] {
+	height: 24px;
+}
+
+#search_form input[type="text"] {
+	width: 55% !Important;
+	height: 18px;
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 1px solid #aaa;
+}
+
+#search_form input[type="text"]:focus,
+#search_form:hover input[type="text"] {
+	border-bottom: 1px solid #33B5E5;
 }
