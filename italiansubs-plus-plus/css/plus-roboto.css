@@ -11,7 +11,8 @@ tr.catbg th,
 tr.catbg2 th,
 .smalltext, 
 tr.smalltext th,
-.middletext {
+.middletext,
+#horiz-menu * {
 	font-family: "Roboto", "Verdana", "Arial", "Helvetica", sans-serif;
 }
 

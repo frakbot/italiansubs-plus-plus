@@ -76,18 +76,98 @@ div#header_j .rk-6 {
 /* Main header bar */
 div#horiz-menu,
 div#horiz-menu ul {
+	background: none;
+	text-transform: uppercase;
 	background-color: #e5e5e5;
-	background-image: url("../img/kitkat/stripes-bg.png");
 }
 
 div#horiz-menu {
 	padding: 0;
 	margin: 0;
+	padding-bottom: 6px;
 }
 
 div#horiz-menu ul {
 	width: 100%;
+	border: #ccc 1px solid;
+}
+
+ul.sf-menu a, ul.sf-menu a:visited  {
+	color:			#333;
+}
+
+div#horiz-menu > ul.sf-menu {
+	background-color: #e5e5e5;
+	background-image: url("../img/kitkat/stripes-bg.png");
+}
+
+ul.sf-menu > li, .sf-menu > li:last-child {
 	border-bottom: #33b5e5 3px solid;
+	background-color: #e5e5e5;
+	background-image: url("../img/kitkat/stripes-bg.png");
+}
+
+ul.sf-menu li.parent ul {
+	border: #ccc 1px solid;
+	border-radius: 0px;
+    position: absolute;
+    padding-top: 50px;
+    top: 2.1em;
+	left: -1px;
+	transition: opacity .3s ease-in-out;
+    
+	min-width: 160px;
+    max-width: 200px;
+}
+
+.sf-menu > li li {
+	background: #eee;
+    box-shadow: 0 2px 2px #999;
+	border-bottom: 1px solid #ccc;
+	height: 30px !important;
+}
+
+ul.sf-menu > li.parent > ul > li > a {
+	height: 30px !important;
+	padding-top: 3px !important;
+}
+
+.sf-menu li > li {
+    border-top: 1px solid #ddd;
+}
+
+.sf-menu > li > ul >li:last-child, .sf-menu > li > ul li.last-child {
+	border-bottom: none;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:hover {
+	background:		#ccc;
+}
+
+.sf-menu li:focus, .sf-menu li:active {
+	background: #59C1E8;
+}
+
+.sf-menu > li:hover, .sf-menu> li.sfHover {
+	background-color: rgba(51, 181, 229, .2);
+	background-image: url("../img/kitkat/stripes-bg.png");
+}
+
+.sf-menu a:hover, .sf-menu a:active {
+	background: none;
+}
+
+.sf-menu li .separator {
+	display: block;
+	border-left:	0px solid #fff;
+	border-top:		0px solid #CFDEFF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+
+a > .sf-sub-indicator {
+	background: none;
 }
 
 /* "MyItasa affinità" badge */
