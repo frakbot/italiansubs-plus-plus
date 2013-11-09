@@ -120,11 +120,16 @@ ul.sf-menu li.parent ul {
     max-width: 200px;
 }
 
-.sf-menu > li li {
+.sf-menu > li li, .sf-menu > li > ul > li > ul > li {
     background: #eee;
     box-shadow: 0 2px 2px #999;
     border-bottom: 1px solid #ccc;
     height: 30px !important;
+}
+
+.sf-menu > li > ul > li > ul {
+    left: 160px !important;
+    top: -1px !important;
 }
 
 ul.sf-menu > li.parent > ul > li > a {
@@ -149,9 +154,13 @@ ul.sf-menu > li.parent > ul > li > a {
     background: #59C1E8;
 }
 
-.sf-menu > li:hover, .sf-menu> li.sfHover {
+.sf-menu li:hover, .sf-menu li.sfHover {
     background-color: rgba(51, 181, 229, .2);
     background-image: url("../img/kitkat/stripes-bg.png");
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus {
+    background: #ccc;
 }
 
 .sf-menu a:hover, .sf-menu a:active {
@@ -556,4 +565,22 @@ div#main_menu > ul > li > a:active {
 #search_form input[type="text"]:focus,
 #search_form:hover input[type="text"] {
     border-bottom: 1px solid #33B5E5;
+}
+
+/* Footer */
+#footer_section, #footer_section ul.reset * {
+    background: #e5e5e5;
+    color: #999 !important;
+}
+
+div#footer, div#footer .rk-1, div#footer .rk-2 {
+    background: #e5e5e5;
+}
+
+div#the-footer {
+    background: url("../img/kitkat/footer-logo.png") 50% 0 no-repeat;
+}
+
+body > div {
+    background: #e5e5e5 !important;
 }
