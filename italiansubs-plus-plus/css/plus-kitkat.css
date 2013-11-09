@@ -747,3 +747,53 @@ p#myitasabody {
 	border-radius: 0px;
 	box-shadow: none;
 }
+
+
+/* ============= SERIES DETAILS-SPECIFIC STUFF ==================== */
+.bordosotto {
+	border-bottom: none !important;
+}
+
+.bordodx {
+	border-right: none !important;
+}
+
+.sum_gen {
+	font-weight: normal !important;
+}
+
+.sum_gen span {
+	background: none !important;
+	border: none !important;
+	color: #333 !important;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.titolo {
+	background: none !important;
+	border: none !important;
+	color: #333 !important;
+	font-weight: 100 !important;
+	font-size: 28px !important;
+}
+
+.Serie {
+	font-weight: 100 !important;
+}
+
+.summary_top {
+	background: #ccc !important;
+	border: 1px solid #ccc !Important;
+	border-radius: 0px !important;
+}
+
+.summary {
+	background: #fff !important;
+	border: 1px solid #ccc !Important;
+	border-radius: 0px !important;	
+}
+
+span#sum_top_sx, span#sum_top_dx {
+	color: #333 !important;
+}

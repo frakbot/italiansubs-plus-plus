@@ -12,8 +12,10 @@ tr.catbg2 th,
 .smalltext, 
 tr.smalltext th,
 .middletext,
-#horiz-menu * {
-	font-family: "Roboto", "Verdana", "Arial", "Helvetica", sans-serif;
+#horiz-menu *,
+.sum_gen *,
+span#sum_sx_tx {
+	font-family: "Roboto", "Verdana", "Arial", "Helvetica", sans-serif !important;
 }
 
 .smalltext {
