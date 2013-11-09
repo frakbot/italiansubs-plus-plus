@@ -1,4 +1,8 @@
 /* Body */
+html {
+    background: #e5e5e5;
+}
+
 body {
     background: #e5e5e5 !important;
     margin-top: 8px !important;
@@ -62,15 +66,20 @@ div#upper_section div.user {
 /* Main header */
 div#header_j,
 div#header_j .rk-1,
-div#header_j .rk-2 {
+div#header_j .rk-2,
+div#header,
+div#header .rk-1,
+div#header .rk-2  {
     background: #e5e5e5;
 }
 
-div#header_j .rk-6 {
+div#header_j .rk-6,
+div#header .rk-6{
     background: url("../img/kitkat/header-logo.png") no-repeat scroll 0 0 transparent;
 }
 
-#header_j div.rk-3 a img {
+#header_j div.rk-3 a img,
+#header div.rk-3 a img{
     -webkit-mask-image: url("../img/kitkat/header-mask.png");
 }
 
@@ -184,7 +193,7 @@ div#horiz-menudown {
     background: #e5e5e5;
 }
 
-#form-login > div:nth-child(2) span {
+#form-login > div span {
     opacity: 0;
 }
 
@@ -583,4 +592,35 @@ div#the-footer {
 
 body > div {
     background: #e5e5e5 !important;
+}
+
+/* ============= HOME PAGE-SPECIFIC STUFF ==================== */
+
+#mainbody > table td.left, #mainbody > table td.right {
+    background: #fff;
+}
+
+img#mainleft, img#mainright {
+    background: none;
+}
+
+#mainbody > table td.left > div > div:first-child table * {
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+#mainbody > table td.left > div > div:first-child table {
+    border-bottom: #ddd 1px solid;
+    padding-bottom: 2px;
+}
+
+#mainbody > table td.left div.moduletable h3,
+#mainbody > table td.right div.moduletable h3{
+    border-bottom: none;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0;
+    margin: 1;
 }
