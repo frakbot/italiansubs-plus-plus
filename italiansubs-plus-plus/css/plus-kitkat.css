@@ -23,6 +23,40 @@ body div:not([class*=tipsy]) div:nth-child(4) {
 	background: transparent !important;
 }
 
+div#upper_section div.user {
+	background: none;
+	border: none;
+}
+
+#upper_section {
+    color: #000;
+	box-shadow: 0 1px 2px #aaa;
+	background: white !important;
+    border-top: 1px solid #aaa;
+	border-radius: 3px;
+}
+
+#upper_section ul li.greeting {
+	font-weight: 100;
+	font-size: 24px;
+	padding-bottom: 6px;
+}
+
+#upper_section ul li:not(.greeting) {
+	font-size: 13px;
+	line-height: 1.2;
+	color: #333;
+}
+
+#upper_section div.user p.avatar {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#upshrink {
+    content: url("../img/kitkat/header-toggle.png");
+}
+
 /* "MyItasa affinità" badge */
 .myitasa_affinita div {
     background: #e5e5e5 !important;
@@ -160,7 +194,7 @@ ul.like_separated_button li.unlike_button a {
 
 /* Links */
 a {
-	color: #333 !important;
+	color: #666 !important;
 }
 
 /* Button lists */
@@ -186,7 +220,7 @@ div#main_menu ul li a {
 	
 	text-transform:uppercase;
         
-	color: #333;
+	color: #333 !important;
 }
 
 .buttonlist ul li a.active,
