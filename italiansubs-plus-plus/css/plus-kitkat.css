@@ -216,6 +216,8 @@ a.awesome[title="LOGOUT"] > img {
     content: url("../img/kitkat/logout.png");
 }
 
+/* Subs search field and autocomplete */
+
 ::-webkit-input-placeholder {
     color:    #f00;
 }
@@ -231,6 +233,40 @@ a.awesome[title="LOGOUT"] > img {
 #ricerca:hover input[type="text"] {
     border-bottom: 1px solid #33B5E5;
 	color: #000;
+}
+
+.ui-menu {
+    background: #eee;
+    border: #ccc 1px solid;
+    border-radius: 0px;
+    position: absolute;
+    top: 228px !important;
+    left: -1px;
+    transition: opacity .3s ease-in-out;
+    padding: 0;
+}
+
+.ui-menu li {
+    border-bottom: #ccc 1px solid;
+    text-align: left;
+    font-family: "Roboto Condensed";
+    font-size: 13px;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus {
+    border: none;
+    border-radius: 0px;
+    background: #ccc;
+    font-weight: normal;
+    color: #026890;
+}
+
+.ui-state-hover:active, .ui-widget-content .ui-state-hover:active, .ui-state-focus:active {
+    background: #59C1E8;
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+    margin: 0;
 }
 
 /* "MyItasa affinità" badge */
