@@ -8,10 +8,13 @@ select,
 tr.catbg td,
 tr.catbg2 td,
 tr.catbg th,
-tr.catbg2 th ,
-.smalltext, tr.smalltext th {
-	font-family:	"Roboto", "Verdana", "Arial", "Helvetica", sans-serif;
+tr.catbg2 th,
+.smalltext, 
+tr.smalltext th,
+.middletext {
+	font-family: "Roboto", "Verdana", "Arial", "Helvetica", sans-serif;
 }
+
 .smalltext {
 	font-size: 7.5pt;
 }
