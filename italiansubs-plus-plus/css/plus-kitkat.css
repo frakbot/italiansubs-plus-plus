@@ -797,3 +797,53 @@ p#myitasabody {
 span#sum_top_sx, span#sum_top_dx {
 	color: #333 !important;
 }
+
+
+/* ============= SUBS DETAILS-SPECIFIC STUFF ==================== */
+span#barrettina, a#barralink {
+	color: #333 !important;
+	font-weight: normal;
+}
+
+.paginanews span#titolo {
+	font-weight: 100;
+	font-size: 28px;
+}
+
+.roundedcornr_box_610475,
+.roundedcornr_top_610475,
+.roundedcornr_content_610475,
+.roundedcornr_bottom_610475,
+.roundedcornr_bottom_610475 div{
+	background: none !important;
+}
+
+.social {
+	background: none !important;
+}
+
+.credit h3 {
+	background-color: #ccc !important;
+}
+
+.sum_trama_top {
+	background: #ccc !important;
+	border: none !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+	padding-right:2px;
+}
+
+.sum_trama {
+	border: #ccc 1px solid !important;
+	-webkit-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+
+.jomentry2, #jc_commentFormDiv {
+	background-color: #eee;
+}
+
+.jomentry1 {
+	background-color: #f8f8f8;
+}
