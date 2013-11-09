@@ -216,6 +216,22 @@ a.awesome[title="LOGOUT"] > img {
     content: url("../img/kitkat/logout.png");
 }
 
+::-webkit-input-placeholder {
+    color:    #f00;
+}
+
+#ricerca input[type="text"] {
+    background-color: transparent;
+    border: 0px;
+	color: #666;
+    border-bottom: 1px solid #aaa;
+}
+
+#ricerca input[type="text"]:focus,
+#ricerca:hover input[type="text"] {
+    border-bottom: 1px solid #33B5E5;
+	color: #000;
+}
 
 /* "MyItasa affinità" badge */
 .myitasa_affinita div {
@@ -486,6 +502,19 @@ div#main_menu > ul > li > a:active {
     background-color: transparent;
     border: 0px;
     border-bottom: 1px solid #aaa;
+}
+
+#search_form input[type="text"]:after {
+    height: 8px;
+    border-right: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+    border-left: 1px solid #b2b2b2;
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    left: 0;
+    content: "";
+    pointer-events:none;
 }
 
 #search_form input[type="text"]:focus,
