@@ -1,6 +1,7 @@
 /* Body */
 body {
 	background: #e5e5e5 !important;
+	margin-top: 8px !important;
 }
 
 #content_section, #header {
@@ -55,6 +56,20 @@ div#upper_section div.user {
 
 #upshrink {
     content: url("../img/kitkat/header-toggle.png");
+}
+
+div#header_j,
+div#header_j .rk-1,
+div#header_j .rk-2 {
+	background: #e5e5e5;
+}
+
+div#header_j .rk-6 {
+	background: url("../img/kitkat/header-logo.png") no-repeat scroll 0 0 transparent;
+}
+
+#header_j div.rk-3 a img {
+	-webkit-mask-image: url("../img/kitkat/header-mask.png");
 }
 
 /* "MyItasa affinità" badge */

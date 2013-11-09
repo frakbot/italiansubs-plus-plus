@@ -46,6 +46,8 @@
 	"font/Roboto-Regular-webfont.woff",
 	"img/yvonne-spoiler/plus_yvonne_button_open.png",
 	"img/yvonne-spoiler/plus_yvonne_button_open.png",
+	"img/kitkat/header-mask.png",
+	"img/kitkat/header-logo.png",
 	"img/kitkat/header-toggle.png"
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
