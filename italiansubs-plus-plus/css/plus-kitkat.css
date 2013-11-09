@@ -11,8 +11,8 @@ body {
 	width: auto;
 }
 
-body div:nth-child(1) div:nth-child(4) {
-	border: 0px !important;
+body div:not([class*=tipsy]) div:nth-child(4) {
+	border: none !important; /* TODO: should avoid matching .highslide as well */
 }
 
 /* Bars and headers */
@@ -45,6 +45,7 @@ body div:nth-child(1) div:nth-child(4) {
     font-size: 20px;
     margin-bottom: 8px;
     color: #000;
+    line-height: 1.1;
 }
 
 .keyinfo {
