@@ -49,7 +49,8 @@
 	"img/kitkat/header-mask.png",
 	"img/kitkat/header-logo.png",
 	"img/kitkat/header-toggle.png",
-	"img/kitkat/stripes-bg.png"
+	"img/kitkat/stripes-bg.png",
+	"img/kitkat/logout.png"
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }
