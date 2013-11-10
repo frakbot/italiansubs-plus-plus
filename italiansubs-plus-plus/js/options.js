@@ -142,6 +142,7 @@ window.onload = function() {
     var check = $("#chk-kitkat-mode").is(':checked');
     localStorage['kitkat-mode'] = check;
     tryTrack('Opzioni', 'KitKat mode', now(), check ? 1 : -1);
+	document.getElementById("chk-droid-mode").disabled = check;
   });
 
   $("#chk-forum-overlay").change(function() {

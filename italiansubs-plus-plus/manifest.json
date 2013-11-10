@@ -1,6 +1,6 @@
 {
   "name": "Italiansubs++",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "manifest_version": 2,
   "description": "Raccolta di plugin per il portale italiansubs.net",
   "browser_action": {
