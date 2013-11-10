@@ -748,6 +748,18 @@ p#myitasabody {
 	box-shadow: none;
 }
 
+div#messageindex tr.catbg * {
+	background: #ccc;
+	color: #666;
+}
+
+.stickybg {
+	background: #e0e0e0;
+}
+
+.stickybg2 {
+	background: #eee;
+}
 
 /* ============= UNREAD LIST-SPECIFIC STUFF ==================== */
 div#unreadreplies table tbody tr td.subject div span[id^=msg_],
@@ -958,4 +970,90 @@ div#main_admsection tr.catbg *,
 div#mlist tr.catbg * {
 	background: #ccc;
 	color: #666;
+}
+
+/* ============= MYITASA-SPECIFIC STUFF ============= */
+tr#titolosx td,
+tr#titolodx td,
+.nextbutton2,
+.prevbutton2 {
+	background: #ccc !important;
+	border: #ccc 1px solid !important;
+	border-radius: 0px !important;
+}
+
+tr#titolosx td span,
+tr#titolodx td span {
+	color: #333 !important;
+}
+
+.nextbutton2,
+.prevbutton2 {
+	background-color: #ddd !important;
+	border: none !important;
+	width: 30px !important;
+}
+
+.nextbutton,
+.prevbutton {
+	width: 35px !important;
+	background: #ddd !important;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+.nextbutton2 p,
+.prevbutton2 p {
+	padding-left: 9px !important;
+}
+
+.nextbutton p,
+.prevbutton p {
+	padding-left: 9px !important;
+}
+
+tr#titolodx span {
+	font-size: 16px !important;
+	font-weight: normal;
+}
+
+td.partesinistra > table.listapref td,
+div[id="Prossimi Episodi"] table.contenuto td,
+div#Forum table.contenuto td,
+div#Blog table.contenuto td {
+	background: #fff !important;
+}
+
+div[id="Prossimi Episodi"] table.contenuto tr:hover td,
+div#Forum table.contenuto tr:hover td,
+div#Blog table.contenuto tr:hover td {
+	background: #ddd !important;
+}
+
+div[id="Prossimi Episodi"] table.contenuto td *,
+div#Forum table.contenuto td * {
+	font-family: "Roboto Condensed";
+	font-size: 13px;
+}
+
+div#Forum table.contenuto td * {
+	font-family: "Roboto Condensed";
+	font-size: 14px;
+}
+
+div#Blog table.contenuto td span[style*="font-size:1.18em"] {
+	font-weight: 300;
+}
+
+div#Blog table.contenuto td span[style*="font-size:0.88em"] {
+	font-family: "Roboto Condensed";
+	font-size: 10px !important;
+}
+
+.general {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	background: #eee !important;
+	border-radius: 0px !important;
+	border: none !important;
 }

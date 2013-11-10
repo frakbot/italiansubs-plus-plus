@@ -14,7 +14,9 @@ tr.smalltext th,
 .middletext,
 #horiz-menu *,
 .sum_gen *,
-span#sum_sx_tx {
+span#sum_sx_tx,
+tr#titolosx span,
+tr#titolodx span {
 	font-family: "Roboto", "Verdana", "Arial", "Helvetica", sans-serif !important;
 }
 
