@@ -590,7 +590,7 @@ div#the-footer {
     background: url("../img/kitkat/footer-logo.png") 50% 0 no-repeat;
 }
 
-body > div {
+body > div:not(.tipsy) {
     background: #e5e5e5 !important;
 }
 
@@ -749,6 +749,46 @@ p#myitasabody {
 }
 
 
+/* ============= UNREAD LIST-SPECIFIC STUFF ==================== */
+div#unreadreplies table tbody tr td.subject div span[id^=msg_],
+div#unread table tbody tr td.subject div span[id^=msg_] {
+	height: auto !important;
+}
+
+div#unreadreplies table tbody tr td.subject div a[id^=newicon] img,
+div#unread table tbody tr td.subject div a[id^=newicon] img {
+	background: none;
+}
+
+div#unreadreplies > table tbody tr td,
+div#unread > table tbody tr td {
+	border-bottom: #ccc 1px solid !important;
+	border-radius: 0px;
+}
+
+div#unreadreplies > table thead tr th,
+div#unread > table thead tr th {
+	background: #ccc !important;
+	border: none;
+}
+
+.description, .description_board, .plainbox {
+	background: #eee;
+}
+
+
+/* ============= PRIVATE MESSAGES-SPECIFIC STUFF ==================== */
+div#personal_messages > form[name^=pmFolder] > table.table_grid thead tr {
+	background: #ccc !important;
+	border: none;
+}
+
+div#personal_messages tr.catbg th {
+	background: #ccc;
+	border: none;
+	border-radius: 0px;
+}
+
 /* ============= SERIES DETAILS-SPECIFIC STUFF ==================== */
 .bordosotto {
 	border-bottom: none !important;
@@ -846,4 +886,76 @@ span#barrettina, a#barralink {
 
 .jomentry1 {
 	background-color: #f8f8f8;
+}
+
+/* ============== STAFF PANEL-SPECIFIC STUFF ============== */
+.pannello_menu {
+	background: #CCC;
+}
+
+.pannello_menu.submenu ul {
+	background: #eee;
+}
+
+table.notifichepan table.bordercolor tbody tr td {
+	background: #ccc !important;
+	border: none;
+}
+
+table.notifichepan div#postMoreOptions2 table.bordercolor2,
+table.notifichepan table.bordercolor {
+	border-radius: 0px;
+	border-color: #ccc !important;
+}
+
+table.notifichepan div#postMoreOptions2 table.bordercolor2 * {
+	border-radius: 0px;
+	border-color: #ccc !important;
+}
+
+#postMoreOptions {
+	border: none;
+	padding: 0;
+}
+
+div#postMoreOptions .windowbg,
+div#postMoreOptions .windowbg2,
+table.pannello table.bordercolor .windowbg,
+table.pannello table.bordercolor .windowbg2,
+table.bordercolor td.windowbg,
+table.bordercolor td.windowbg2 {
+	border: none;
+	border-radius: 0px;
+	background: #fff !important;
+}
+
+.titlebg,
+.titlebg2,
+tr.titlebg th,
+tr.titlebg td,
+tr.titlebg2 td {
+	background: #eee;
+}
+
+td.catbg .pagination p,
+td.catbg .pagination p *{
+	font-size: 11px;
+}
+
+div#main_content_section table.tborder .windowbg,
+div#main_content_section table.tborder .windowbg2{
+	background: none !important;
+	border: none;
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+div.title_bar, h3.titlebg {
+	background: none;
+}
+
+div#main_admsection tr.catbg *,
+div#mlist tr.catbg * {
+	background: #ccc;
+	color: #666;
 }
