@@ -1218,3 +1218,15 @@ a[rel="category tag"] {
 	font-weight: 100 !important;
 	font-size: 28px;	
 }
+
+img#logo {
+	background: url("../img/kitkat/header-blog-logo.png") no-repeat;
+}
+
+img#logo_dx {
+	background: url("../img/kitkat/header-blog-cubes.png") no-repeat;
+}
+
+script + .wrapper #header div.rk-6 {
+	background: none;
+}
