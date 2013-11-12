@@ -1,0 +1,9 @@
+div.frame > div#main_menu li > a.firstlevel.highlighted {
+	background-color:		#FF8080;
+	color: 					black;
+}
+
+div.frame > div#main_menu li > a.firstlevel.highlighted:hover {
+	background-color: 		#FF4C4C;
+	color: 					white;
+}

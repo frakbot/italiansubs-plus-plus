@@ -27,6 +27,16 @@ The extension, its features and version history are in Italian, since the websit
 * **Highlighted Mode.** Evidenzia in rosso i pulsanti di PM e like ricevuti se ci sono elementi non letti.
 * **Yvonne ♥ Better Spoiler.** Aggiunge pulsanti per aprire e chiudere tutti gli spoiler in una pagina.
 
+## Building
+
+In order to build this extension, you need a NodeJS environment. Then, open a shell and execute the following:
+
+	npm install grunt-cli bower yo generator-chrome-extension -g
+
+Move into the root of the project and call
+
+	npm install & bower install
+
 ## Version History
 
 * **v1.1.5:** Minor bug fix a Better ITASA

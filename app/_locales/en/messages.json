@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "italiansubs-plus-plus",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "A Chrome extension that adds features to the Italiansubs.net website.",
+    "description": "The description of the application"
+  }
+}
