@@ -190,7 +190,11 @@ html.itasaplusplus .sf-menu li .separator {
 }
 
 html.itasaplusplus a > .sf-sub-indicator {
-    background: none !important;
+    background: url("../img/kitkat/menu-arrows-2.png") no-repeat 0px 0px;
+}
+
+html.itasaplusplus .sf-menu li.parent:hover .sf-sub-indicator {
+    background: url("../img/kitkat/menu-arrows-2.png") no-repeat -10px 0px;
 }
 
 /* Main header secondary bar */
@@ -263,7 +267,7 @@ html.itasaplusplus .ui-menu {
     border: #ccc 1px solid;
     border-radius: 0px;
     position: absolute;
-    top: 228px !important;
+    top: 242px !important;
     left: -1px;
     transition: opacity .3s ease-in-out;
     padding: 0;
@@ -394,7 +398,6 @@ html.itasaplusplus .topslice,
 html.itasaplusplus .botslice {
     color: #000;
     box-shadow: 0 1px 2px #aaa;
-    padding-top: 8px;
     background: white !important;
     margin: 0 0 1rem;
     border-top: 1px solid #cfcfcf;
@@ -407,7 +410,9 @@ html.itasaplusplus .post_separator {
 
 html.itasaplusplus .windowbg .post_wrapper,
 html.itasaplusplus .windowbg2 .post_wrapper {
-    background: transparent !important;
+    background: transparent !important;	
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 html.itasaplusplus .botslice > *,
