@@ -45,7 +45,7 @@
     "css/plus-yvonne-spoiler.css",
     "font/*.ttf",
     "img/yvonne-spoiler/plus_yvonne_button_open.png",
-    "img/yvonne-spoiler/plus_yvonne_button_open.png",
+    "img/yvonne-spoiler/plus_yvonne_button_close.png",
     "img/kitkat/*.png"
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
