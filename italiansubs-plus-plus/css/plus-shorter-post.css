@@ -1,12 +1,12 @@
-.post_wrapper {
+html.itasaplusplus .post_wrapper {
     position:   relative;
 }
 
-.post {
+html.itasaplusplus .post {
     min-height: 0px;
 }
 
-.postarea {
+html.itasaplusplus .postarea {
     min-height: 0px;
 }
 

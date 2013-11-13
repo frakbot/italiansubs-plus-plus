@@ -5,7 +5,7 @@
   "description": "Raccolta di plugin per il portale italiansubs.net",
   "browser_action": {
     "default_icon": "img/logo.png",
-	"default_popup": "popup.html"
+    "default_popup": "popup.html"
   },
   "options_page": "options.html",
   "background": {
@@ -23,37 +23,37 @@
   ],
   "content_scripts": [
     {
-    "matches": ["*://*.italiansubs.net/*"],
-	"exclude_matches": ["*://img.italiansubs.net/*"],
-    "js": ["js/jquery-1.7.2.js", "js/itasa.js"],
-	"css": [  ]
+      "matches": ["*://*.italiansubs.net/*"],
+      "exclude_matches": ["*://img.italiansubs.net/*"],
+      "js": ["js/jquery-1.7.2.js", "js/itasa.js"],
+      "css": [  ],
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
     "css/plus-font.css",
     "css/plus-font-maxi.css",
     "css/plus-shorter-post.css",
-	"css/plus-contrast.css",
-	"css/plus-separator.css",
-	"css/roboto.css",
-	"css/plus-roboto.css",
-	"css/plus-kitkat.css",
-	"css/plus-better-overlay.css",
-	"css/plus-better-itasa.css",
-	"css/plus-highlighted-menu.css",
-	"css/plus-yvonne-spoiler.css",
-	"font/droid-sans-mono.woff",
-	"font/Roboto-Regular-webfont.woff",
-	"img/yvonne-spoiler/plus_yvonne_button_open.png",
-	"img/yvonne-spoiler/plus_yvonne_button_open.png",
-	"img/kitkat/header-mask.png",
-	"img/kitkat/header-logo.png",
-	"img/kitkat/header-toggle.png",
-	"img/kitkat/header-blog-logo.png",
-	"img/kitkat/header-blog-cubes.png",
-	"img/kitkat/stripes-bg.png",
-	"img/kitkat/logout.png",
-	"img/kitkat/footer-logo.png"
+    "css/plus-contrast.css",
+    "css/plus-separator.css",
+    "css/roboto.css",
+    "css/plus-roboto.css",
+    "css/plus-kitkat.css",
+    "css/plus-better-overlay.css",
+    "css/plus-better-itasa.css",
+    "css/plus-highlighted-menu.css",
+    "css/plus-yvonne-spoiler.css",
+    "font/*.ttf",
+    "img/yvonne-spoiler/plus_yvonne_button_open.png",
+    "img/yvonne-spoiler/plus_yvonne_button_open.png",
+    "img/kitkat/header-mask.png",
+    "img/kitkat/header-logo.png",
+    "img/kitkat/header-toggle.png",
+    "img/kitkat/header-blog-logo.png",
+    "img/kitkat/header-blog-cubes.png",
+    "img/kitkat/stripes-bg.png",
+    "img/kitkat/logout.png",
+    "img/kitkat/footer-logo.png"
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }
