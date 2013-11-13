@@ -46,14 +46,7 @@
     "font/*.ttf",
     "img/yvonne-spoiler/plus_yvonne_button_open.png",
     "img/yvonne-spoiler/plus_yvonne_button_open.png",
-    "img/kitkat/header-mask.png",
-    "img/kitkat/header-logo.png",
-    "img/kitkat/header-toggle.png",
-    "img/kitkat/header-blog-logo.png",
-    "img/kitkat/header-blog-cubes.png",
-    "img/kitkat/stripes-bg.png",
-    "img/kitkat/logout.png",
-    "img/kitkat/footer-logo.png"
+    "img/kitkat/*.png"
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
 }

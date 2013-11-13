@@ -186,7 +186,11 @@ html.itasaplusplus .sf-menu li .separator {
 }
 
 html.itasaplusplus a > .sf-sub-indicator {
-    background: none !important;
+    background: url("../img/kitkat/menu-arrows-2.png") no-repeat 0px 0px;
+}
+
+html.itasaplusplus .sf-menu li.parent:hover .sf-sub-indicator {
+    background: url("../img/kitkat/menu-arrows-2.png") no-repeat -10px 0px;
 }
 
 /* Main header secondary bar */
