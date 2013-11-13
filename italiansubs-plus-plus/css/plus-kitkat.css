@@ -16,9 +16,13 @@ html.itasaplusplus #header {
     width: auto;
 }
 
-html.itasaplusplus body div:not([class*=tipsy]) div:nth-child(4) {
+html.itasaplusplus body > div > #horiz-menudown ~ div:not(#footer) {
     border: none !important;
- /* TODO: should avoid matching .highslide as well */;
+}
+
+html.itasaplusplus body div:not([class*=tipsy]) div:nth-child(4) {
+    /* WAT: border: none !important; */
+    /* TODO: should avoid matching .highslide as well */;
 }
 
 /* Bars and headers */
@@ -384,13 +388,16 @@ html.itasaplusplus .like_post {
 }
 
 /* Posts BG: cards style */
-html.itasaplusplus .windowbg, .windowbg2, .topslice, .botslice {
+html.itasaplusplus .windowbg,
+html.itasaplusplus .windowbg2,
+html.itasaplusplus .topslice,
+html.itasaplusplus .botslice {
     color: #000;
     box-shadow: 0 1px 2px #aaa;
     padding-top: 8px;
     background: white !important;
     margin: 0 0 1rem;
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #cfcfcf;
     border-radius: 3px;
 }
 
@@ -398,7 +405,8 @@ html.itasaplusplus .post_separator {
     height: 0px !important;
 }
 
-html.itasaplusplus .windowbg .post_wrapper, .windowbg2 .post_wrapper {
+html.itasaplusplus .windowbg .post_wrapper,
+html.itasaplusplus .windowbg2 .post_wrapper {
     background: transparent !important;
 }
 
@@ -412,9 +420,16 @@ html.itasaplusplus #quickModForm div span {
     box-shadow: 0px 0px rgba( 0, 0, 0, 0.0 ) !important;
     -webkit-border-radius: 0px !important;
     border-radius: 0px !important;
-    height: 0px !important;
     margin: 0px;
     padding: 0px;
+}
+
+html.itasaplusplus #quickModForm div span:not(.topslice):not(.botslice) {
+    height: 0px !important;
+}
+
+html.itasaplusplus .botslice {
+    height: 5px;
 }
 
 /* Generic small text */
