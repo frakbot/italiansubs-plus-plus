@@ -802,6 +802,7 @@ html.itasaplusplus .stickybg2 {
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div span[id^=msg_],
 html.itasaplusplus div#unread table tbody tr td.subject div span[id^=msg_] {
 	height: auto !important;
+	background: none;
 }
 
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div a[id^=newicon] img,
