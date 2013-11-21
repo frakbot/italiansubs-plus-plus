@@ -3,10 +3,12 @@
 /******************************************/
 
 /* Fix sfondo */
-body {	background: #4f6fa7 url(http://www.italiansubs.net/templates/rt_rokwebify_j15/images/bg.png) 0 0 repeat-x;}
+html.itasaplusplus body {
+  background: #4f6fa7 url(http://www.italiansubs.net/templates/rt_rokwebify_j15/images/bg.png) 0 0 repeat-x;
+}
 
 /* Fix larghezza casella di ricerca */
-#search_form .input_text {
+html.itasaplusplus #search_form .input_text {
     width: 72%;
 }
 
@@ -15,7 +17,7 @@ body {	background: #4f6fa7 url(http://www.italiansubs.net/templates/rt_rokwebify
 /***********************************/
 
 /* Evita line wrapping in home forum nei nomi degli ultimi topic delle serie */
-ul.serieslist li p.desc span {
+html.itasaplusplus ul.serieslist li p.desc span {
     white-space: 		nowrap;
     text-overflow: 		ellipsis;
 }
@@ -25,22 +27,22 @@ ul.serieslist li p.desc span {
 /**********************************************/
 
 /* Rimuovi sfondo colorato topic sticky */
-div#unreadreplies table tbody tr td.stickybg,
-div#unreadreplies table tbody tr td.stickybg2,
-div#unread table tbody tr td.stickybg,
-div#unread table tbody tr td.stickybg2 {
+html.itasaplusplus div#unreadreplies table tbody tr td.stickybg,
+html.itasaplusplus div#unreadreplies table tbody tr td.stickybg2,
+html.itasaplusplus div#unread table tbody tr td.stickybg,
+html.itasaplusplus #unread table tbody tr td.stickybg2 {
     background: #F2F2F2;
 }
 
 /* Metti tutti i nomi dei topic in grassetto */
-div#unreadreplies table tbody tr td.subject div span a,
-div#unread table tbody tr td.subject div span a {
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div span a,
+html.itasaplusplus div#unread table tbody tr td.subject div span a {
     font-weight: bold;
 }
 
 /* Evidenzia i titoli dei topic rispetto al resto... */
-div#unreadreplies table tbody tr td.subject div span,
-div#unread table tbody tr td.subject div span {
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div span,
+html.itasaplusplus div#unread table tbody tr td.subject div span {
     background-color: #D1D9DA;
     width: 480px;
     display: inline-block;
@@ -52,13 +54,13 @@ div#unread table tbody tr td.subject div span {
 }
 
 /* ...con un fix per gli unread topic, che sono più stretti... */
-div#unread table tbody tr td.subject div span {
+html.itasaplusplus div#unread table tbody tr td.subject div span {
     width: 461px;
 }
 
 /* ...e di conseguenza le immagini "vai al topic" */
-div#unreadreplies table tbody tr td.subject div a img,
-div#unread table tbody tr td.subject div a img {
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div a img,
+html.itasaplusplus div#unread table tbody tr td.subject div a img {
     background-color: #D1D9DA;
     padding: 4px 2px 3px 12px;
     margin-top: -5px;
@@ -70,8 +72,8 @@ div#unread table tbody tr td.subject div a img {
 }
 
 /* Aumenta la leggibilità mettendo più padding verticale nelle righe */
-div#unreadreplies table tbody tr td,
-div#unread table tbody tr td {
+html.itasaplusplus div#unreadreplies table tbody tr td,
+html.itasaplusplus div#unread table tbody tr td {
     padding-bottom: 5px;
     padding-top: 5px;
     background-position: 100% 22px;
@@ -84,12 +86,12 @@ div#unread table tbody tr td {
 
 /* Fix per i titoli dei topic sticky che finiscono sopra allo sfondo 
    con l'immagine della puntina... DAICAZZO! -_-' */
-.topic_table:not(#unread, #unreadreplies) td.stickybg2,
-.topic_table:not(#unread, #unreadreplies) td.lockedbg2 {
+html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.stickybg2,
+html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.lockedbg2 {
     padding-right: 30px;
 }
 
 /* Idem per i locked/sticky (qui il padding è doppio perché ho 2 icone) */
-.topic_table:not(#unread, #unreadreplies) td.locked_sticky2 {
+html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.locked_sticky2 {
     padding-right: 52px;
 }

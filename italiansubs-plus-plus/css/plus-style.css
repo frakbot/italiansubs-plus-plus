@@ -1,16 +1,16 @@
-.plus-separator {
+html.itasaplusplus .plus-separator {
     display:			block !important;
     height:				2px;
     margin: 			0;
 }
 
-.plus-splice {
+html.itasaplusplus .plus-splice {
     margin-bottom:		0px;
 }
 
-.plus-post,
-.plus-top,
-.plus-bottom  {
+html.itasaplusplus .plus-post,
+html.itasaplusplus .plus-top,
+html.itasaplusplus .plus-bottom  {
     background-color:	#E2F1F5 !important;
-    color: 				black;
+    color: 				    black;
 }

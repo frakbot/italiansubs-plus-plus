@@ -170,7 +170,11 @@ var afterLoad = function() {
   */
 };
 
+// Funzione chiamata su documentStart (non è detto che il documento sia completo)
 var asap = function() {
+  // Appena si inizia a scaricare il documento, imposta la classe "itasaplusplus" sul tag "html"
+  $('html').addClass('itasaplusplus');
+
   chrome.extension.sendRequest({mStorage: "high-contrast"}, function(response) {
     if (response === "true") {
       injectCss('css/plus-contrast.css');
