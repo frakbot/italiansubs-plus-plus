@@ -1,11 +1,12 @@
-ul.quickbuttons li.myvonne.open-spoiler a {
-    background:		url(../img/yvonne-spoiler/plus_yvonne_button_open.png) no-repeat 0 0
+/* line 3, plus-yvonne-spoiler.scss */
+html.itasaplusplus div.quickbutton {
+  width: auto;
 }
-
-ul.quickbuttons li.myvonne.close-spoiler a {
-    background:		url(../img/yvonne-spoiler/plus_yvonne_button_close.png) no-repeat 0 0
+/* line 8, plus-yvonne-spoiler.scss */
+html.itasaplusplus ul.quickbuttons li.myvonne.open-spoiler a {
+  background: url(../images/yvonne-spoiler/plus_yvonne_button_open.png) no-repeat 0 0;
 }
-
-div.quickbutton {
-    width: 			auto;
+/* line 11, plus-yvonne-spoiler.scss */
+html.itasaplusplus ul.quickbuttons li.myvonne.close-spoiler a {
+  background: url(../images/yvonne-spoiler/plus_yvonne_button_close.png) no-repeat 0 0;
 }

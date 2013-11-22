@@ -1,6 +1,9 @@
 {
   "name": "italiansubs-plus-plus",
-  "version": "0.0.0",
-  "dependencies": {},
+  "version": "1.2.0",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "jquery-ui": "~1.10.3"
+  },
   "devDependencies": {}
 }

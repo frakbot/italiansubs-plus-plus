@@ -1,13 +1,10 @@
-.windowbg2 .post_wrapper,
-.windowbg2 span.topslice ,
-.windowbg2 span.topslice  *,
-.windowbg2 span.botslice ,
-.windowbg2 span.botslice  * {
-    background-color:	#dfe4e9 !important;
-    color: 				black;
-    margin-bottom:		0px !important;
-}
-
-.windowbg span.botslice {
-    margin-bottom: 		0;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-contrast\.scss}line{font-family:\000038}}
+html.itasaplusplus .windowbg2 .post_wrapper,
+html.itasaplusplus .windowbg2 span.topslice,
+html.itasaplusplus .windowbg2 span.topslice *,
+html.itasaplusplus .windowbg2 span.botslice,
+html.itasaplusplus .windowbg2 span.botslice * {
+  background-color: #dfe4e9 !important;
+  color: black;
+  margin-bottom: 0px !important;
 }

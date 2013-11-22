@@ -1,5 +1,6 @@
-#forumposts .post_separator {
-    display:			block !important;
-    height:				2px;
-    margin: 			0;
+/* line 2, plus-separator.scss */
+html.itasaplusplus #forumposts .post_separator {
+  display: block !important;
+  height: 2px;
+  margin: 0;
 }

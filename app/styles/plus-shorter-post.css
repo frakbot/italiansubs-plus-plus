@@ -1,13 +1,14 @@
-.post_wrapper {
-    position:   relative;
+/* line 2, plus-shorter-post.scss */
+html.itasaplusplus .post_wrapper {
+  position: relative;
 }
-
-.post {
-    min-height: 0px;
+/* line 5, plus-shorter-post.scss */
+html.itasaplusplus .post {
+  min-height: 0px;
 }
-
-.postarea {
-    min-height: 0px;
+/* line 8, plus-shorter-post.scss */
+html.itasaplusplus .postarea {
+  min-height: 0px;
 }
 
 /*

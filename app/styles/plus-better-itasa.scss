@@ -1,0 +1,99 @@
+html.itasaplusplus {
+  /******************************************/
+  /*******     TEMPLATE GENERALE     ********/
+  /******************************************/
+
+  /* Fix sfondo */
+  body {
+    background: #4f6fa7 url(http://www.italiansubs.net/templates/rt_rokwebify_j15/images/bg.png) 0 0 repeat-x;
+  }
+
+  /* Fix larghezza casella di ricerca */
+  #search_form .input_text {
+    width: 72%;
+  }
+
+  /***********************************/
+  /*******     FORUM HOME     ********/
+  /***********************************/
+
+  /* Evita line wrapping in home forum nei nomi degli ultimi topic delle serie */
+  ul.serieslist li p.desc span {
+    white-space: 		nowrap;
+    text-overflow: 		ellipsis;
+  }
+
+  /**********************************************/
+  /*******     UNREAD REPLIES/TOPICS     ********/
+  /**********************************************/
+
+  div#unreadreplies table tbody tr td,
+  div#unread table tbody tr td {
+
+    /* Aumenta la leggibilità mettendo più padding verticale nelle righe */
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-position: 100% 22px;
+
+    /* Rimuovi sfondo colorato topic sticky */
+    &.stickybg,
+    &.stickybg2 {
+      background: #F2F2F2;
+    }
+
+    &.subject div {
+      span {
+        /* Evidenzia i titoli dei topic rispetto al resto... */
+        background-color: #D1D9DA;
+        width: 480px;
+        display: inline-block;
+        padding: 2px;
+        margin-bottom: 2px;
+        margin-top: -5px;
+        margin-left: -3px;
+        margin-right: -3px;
+
+        /* Metti tutti i nomi dei topic in grassetto */
+        a {
+          font-weight: bold;
+        }
+      }
+
+      /* ...e di conseguenza le immagini "vai al topic" */
+      a img {
+        background-color: #D1D9DA;
+        padding: 4px 2px 3px 12px;
+        margin-top: -5px;
+        margin-right: -3px;
+        margin-left: 0px;
+        float: right;
+        height: 13px;
+        width: 14px;
+      }
+    }
+  }
+
+  /* ...con un fix per gli unread topic, che sono più stretti... */
+  div#unread table tbody tr td.subject div span {
+    width: 461px;
+  }
+
+
+  /**********************************************/
+  /*******     UNREAD REPLIES/TOPICS     ********/
+  /**********************************************/
+
+  .topic_table:not(#unread, #unreadreplies) td {
+    /* Fix per i titoli dei topic sticky che finiscono sopra allo sfondo
+       con l'immagine della puntina... DAICAZZO! -_-' */
+    &.stickybg2,
+    &.lockedbg2 {
+      padding-right: 30px;
+    }
+
+    /* Idem per i locked/sticky (qui il padding è doppio perché ho 2 icone) */
+    &.locked_sticky2 {
+      padding-right: 52px;
+    }
+  }
+}

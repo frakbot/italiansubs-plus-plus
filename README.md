@@ -29,13 +29,22 @@ The extension, its features and version history are in Italian, since the websit
 
 ## Building
 
-In order to build this extension, you need a NodeJS environment. Then, open a shell and execute the following:
+### Prerequisites
+
+In order to build this extension, you need a working **NodeJS** environment. Then, open a shell and execute the following:
 
 	npm install grunt-cli bower yo generator-chrome-extension -g
 
-Move into the root of the project and call
+To install all of the required dependencies, move into the root of the project and call
 
 	npm install & bower install
+
+### Building
+
+The list of supported task is:
+* `grunt`, executes JSHint, testing and builds the extension
+* `grunt jshint` executes JSHint on the project
+* `grunt build` builds the project (inside the `dist` folder and as a zip in the `package` folder)
 
 ## Version History
 

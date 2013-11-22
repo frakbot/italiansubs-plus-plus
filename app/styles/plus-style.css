@@ -1,16 +1,17 @@
-.plus-separator {
-    display:			block !important;
-    height:				2px;
-    margin: 			0;
+/* line 3, plus-style.scss */
+html.itasaplusplus .plus-separator {
+  display: block !important;
+  height: 2px;
+  margin: 0;
 }
-
-.plus-splice {
-    margin-bottom:		0px;
+/* line 9, plus-style.scss */
+html.itasaplusplus .plus-splice {
+  margin-bottom: 0px;
 }
-
-.plus-post,
-.plus-top,
-.plus-bottom  {
-    background-color:	#E2F1F5 !important;
-    color: 				black;
+/* line 15, plus-style.scss */
+html.itasaplusplus .plus-post,
+html.itasaplusplus .plus-top,
+html.itasaplusplus .plus-bottom {
+  background-color: #E2F1F5 !important;
+  color: black;
 }

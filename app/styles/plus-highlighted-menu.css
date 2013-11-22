@@ -1,9 +1,10 @@
-div.frame > div#main_menu li > a.firstlevel.highlighted {
-	background-color:		#FF8080;
-	color: 					black;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-highlighted-menu\.scss}line{font-family:\000033}}
+html.itasaplusplus div.frame > div#main_menu li > a.firstlevel.highlighted.highlighted {
+  background-color: #FF8080;
+  color: black;
 }
-
-div.frame > div#main_menu li > a.firstlevel.highlighted:hover {
-	background-color: 		#FF4C4C;
-	color: 					white;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-highlighted-menu\.scss}line{font-family:\000038}}
+html.itasaplusplus div.frame > div#main_menu li > a.firstlevel.highlighted:hover {
+  background-color: #FF4C4C;
+  color: white;
 }

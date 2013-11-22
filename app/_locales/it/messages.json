@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "italiansubs-plus-plus",
+    "description": "ItalianSubs ++"
+  },
+  "appDescription": {
+    "message": "Estensione di Chrome che aggiunge funzionalità al portale Italiansubs.net.",
+    "description": "The description of the application"
+  }
+}
