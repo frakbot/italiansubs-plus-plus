@@ -31,9 +31,10 @@ The extension, its features and version history are in Italian, since the websit
 
 ### Prerequisites
 
-In order to build this extension, you need a working **NodeJS** environment. Then, open a shell and execute the following:
+In order to build this extension, you need a working **NodeJS** and **ruby** environment. Then, open a shell and execute the following:
 
 	npm install grunt-cli bower yo generator-chrome-extension -g
+	gem install compass
 
 To install all of the required dependencies, move into the root of the project and call
 
