@@ -1,10 +1,9 @@
-node_modules
-temp
-.tmp
-dist
+.idea
 .sass-cache
+.tmp
 app/bower_components
 test/bower_components
+dist
+node_modules
 package
-italiansubs-plus-plus/.idea
-.idea
+temp

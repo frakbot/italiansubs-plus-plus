@@ -280,7 +280,7 @@ module.exports = function (grunt) {
     chromeManifest: {
       dist: {
         options: {
-          buildnumber: true,
+          buildnumber: false,           // Let's not bump the version number (for now)
           background: {
             target: 'scripts/background.js'
           }
