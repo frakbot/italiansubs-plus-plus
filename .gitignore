@@ -1,1 +1,10 @@
-italiansubs-plus-plus/.idea/
+node_modules
+temp
+.tmp
+dist
+.sass-cache
+app/bower_components
+test/bower_components
+package
+italiansubs-plus-plus/.idea
+.idea

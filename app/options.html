@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<title>Italiansubs++ - Opzioni</title>
+    <meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="styles/roboto.css">
+		<link type="text/css" rel="stylesheet" href="styles/options-style.css">
+		<link type="text/css" rel="stylesheet" href="bower_components/jquery-ui/themes/cupertino/jquery-ui.min.css">
+		<script type="application/javascript" src="bower_components/jquery/jquery.min.js"></script>
+		<script type="application/javascript" src="bower_components/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+		<script type="application/javascript" src="scripts/options.js"></script>
+	</head>
+	
+	<body>
+		<div class="header">
+			<div class="content">
+				<img src="../images/logo_strip.png" alt="Italiansubs++"/>
+				<h2>plugin per ITASA sviluppato da MacGyver e rock3r</h2>
+				<h1>Opzioni</h1>
+			</div>
+		</div>
+		<br/>
+		<div class="page">
+			<p>Questo plugin è rilasciato come prodotto "as is". Non ci assumiamo la responsabilità per conseguenze di crash, perdite di dati, esplosioni e/o upload di più o meno specifiche versioni dell'Intersect nel vostro cervello.</p>
+			
+			<hr/>
+			
+			<p>Utilizza la lista sottostante per abilitare/disabilitare i plugin che preferisci. Le opzioni vengono automaticamente salvate.</p>
+			<p>Utilizza i tasti <span id="fake-plus" class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span> e <span id="fake-minus" class="ui-button-icon-primary ui-icon ui-icon-circle-minus"></span> per conoscere i dettagli del plugin.</p>
+			
+			<table class="options-table">
+				<tr>
+					<th scope="col"><input id="chk-all" type="checkbox"/></th>
+					<th scope="col">
+						<a id="open-them-all"><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>
+						<a id="close-them-all"><span class="ui-button-icon-primary ui-icon ui-icon-circle-minus"></span></a>
+						<h2>Plugin</h2>
+					</th>
+				</tr>
+				<tr>
+					<td><input id="chk-better-itasa" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Better ITASA</h3>
+						<div class="toggle">
+							<p>Miglioramenti e bugfix generici per tutto il sito.</p>
+							<p><ul>
+								<li>Evita che i nomi degli ultimi topic nella home forum vadano a capo se troppo lunghi, tagliando la riga autore/data post</li>
+								<li>Rimuove lo sfondo colorato delle sticky nella lista dei topic e delle risposte non lette, che può creare confusione</li>
+								<li>Evidenzia i titoli dei topic e riformatta le celle del nome dei topic nella lista dei topic e delle risposte non lette</li>
+								<li>Aumenta il padding verticale delle righe nella lista dei topic e delle risposte non lette, per avere maggiore chiarezza</li>
+								<li>Evita che i nomi dei topic si sovrappongano agli sfondi di sticky/locked/sticky+locked nel forum, rendendoli in parte illeggibili</li>
+								<li>Corregge lo sfondo di tutte le pagine in modo che sotto il gradiente ci sia il colore giusto e non uno diverso</li>
+							</ul></p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-unread-replies" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Apri tutte risposte non lette</h3>
+						<div class="toggle">
+							<p>Visualizza il pulsante "Apri tutte" nella pagina "Risposte non lette" del forum. Il click sul pulsante apre tutti i thread in lista in nuove tab/finestre.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-unread-board" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Apri tutti i nuovi topic</h3>
+						<div class="toggle">
+							<p>Visualizza il pulsante "Apri non letti" in ogni board del forum. Il click sul pulsante apre tutti i thread con risposte non lette della board corrente.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-high-contrast" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Forum con più alto contrasto</h3>
+						<div class="toggle">
+							<p>Aumenta il contrasto fra post consecutivi di ogni thread. I colori sono simili a quelli della versione 2 del forum.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-show-separator" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Separatore fra post</h3>
+						<div class="toggle">
+							<p>Mostra un separatore fra post consecutivi di ogni thread.</p>
+						</div>
+					</td>
+				</tr>
+                <tr>
+                    <td><input id="chk-shorter-post" type="checkbox"/></td>
+                    <td>
+                        <h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Post compatti</h3>
+                        <div class="toggle">
+                            <p>Riduce al minimo le dimensioni dei post, rendendo la visualizzazione più compatta (meno scrolling, ftw).</p>
+                        </div>
+                    </td>
+                </tr>
+				<tr>
+					<td><input id="chk-mini-font" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Caratteri più piccoli</h3>
+						<div class="toggle">
+							<p>Il font dei post ha una dimensione minore. Anche detta: "undici decimi".</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-maxi-font" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Caratteri più grandi</h3>
+						<div class="toggle">
+							<p>Il font dei post ha una dimensione maggiore. Anche detta: "miopia vattene via".</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-droid-mode" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Droid Mode</h3>
+						<div class="toggle">
+							<p>Usa il font "Roboto" di Android Ice Cream Sandwich in tutto il sito.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-kitkat-mode" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Android KitKat Mode</h3>
+						<div class="toggle">
+							<p>Nuova versione del Droid mode, in stile ispirato ad Android 4.4 KitKat.<br/>Non può essere usato contemporaneamente al <i>Droid Mode</i>, e può modificare il comportamento delle altre mod.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-forum-overlay" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Focus Mode / Better Overlay</h3>
+						<div class="toggle">
+							<p>Rende più chiara la distinzione fra board di serie TV con e senza nuovi messaggi da leggere nel <a href="http://www.italiansubs.net/forum/" target="_blank">forum</a>).</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-highlighted-menu" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Highlighted Menu</h3>
+						<div class="toggle">
+							<p>Evidenza in rosso il pulsante dei messaggi privati e dei like ricevuti quando ci sono elementi non letti.</p>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input id="chk-yvonne-spoiler" type="checkbox"/></td>
+					<td>
+						<h3><a><span class="ui-button-icon-primary ui-icon ui-icon-circle-plus"></span></a>Yvonne ♥ Better Spoiler</h3>
+						<div class="toggle">
+							<p>Mostra un pulsante in ogni post che apre tutti gli spoiler della pagina corrente. Utile per topic con molte immagini sotto spoiler (Yvonne ♥).</p>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>	

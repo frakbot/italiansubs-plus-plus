@@ -6,7 +6,7 @@
 
 [![Get it it from the Chrome WebStore](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_Badge_v2_340x96.png "Get it it from the Chrome WebStore")](https://chrome.google.com/webstore/detail/italiansubs++/pmgjnimdciihbnpncflnkcmjpkmklooh)
 
-The extensions, its features and version history are in Italian, since the website is targeted to Italian speakers.
+The extension, its features and version history are in Italian, since the website is targeted to Italian speakers.
 
 ## Authors
 
@@ -27,8 +27,28 @@ The extensions, its features and version history are in Italian, since the websi
 * **Highlighted Mode.** Evidenzia in rosso i pulsanti di PM e like ricevuti se ci sono elementi non letti.
 * **Yvonne ♥ Better Spoiler.** Aggiunge pulsanti per aprire e chiudere tutti gli spoiler in una pagina.
 
+## Building
+
+### Prerequisites
+
+In order to build this extension, you need a working **NodeJS** environment. Then, open a shell and execute the following:
+
+	npm install grunt-cli bower yo generator-chrome-extension -g
+
+To install all of the required dependencies, move into the root of the project and call
+
+	npm install & bower install
+
+### Building
+
+The list of supported task is:
+* `grunt`, executes JSHint, testing and builds the extension
+* `grunt jshint` executes JSHint on the project
+* `grunt build` builds the project (inside the `dist` folder and as a zip in the `package` folder)
+
 ## Version History
 
+* **v1.1.5:** Minor bug fix a Better ITASA
 * **v1.1.4:** bugfix per grafica natalizia.
 * **v1.1.3:** bugfix per sistemi Mac.
 * **v1.1.2:** l'apertura di tab multiple non fa perdere il focus alla tab corrente.
