@@ -27,12 +27,13 @@ The extension is in Italian, since the website it works on targets Italian speak
 * **Focus Mode.** Make the distinction between read and unread, with and without linked TV series, topics throughout the forum.
 * **Highlighted Mode.** Highlight the "PMs" and "likes" buttons in red when you have unread items in those categories.
 * **Yvonne ♥ Better Spoiler.** Adds buttons to expand or collapse all spoilers in a topic page.
+* **Android KitKat Mode.** New version of Droid mode, inspired to Android 4.4 KitKat. It can't be used together with Droid Mode, and it can change the behaviour of other mods.
 
 ## Building
 
 ### Prerequisites
 
-In order to build this extension, you need a working **NodeJS** and **ruby** environment. Then, open a shell and execute: the following:
+In order to build this extension, you need a working **NodeJS** and **ruby** environment. Then, open a shell and execute:
 
 	npm install grunt-cli bower yo generator-chrome-extension -g
 	gem install compass
@@ -50,7 +51,7 @@ The list of supported task is:
 
 ## Version History
 
-* **v2.0.0:** Added the *KitKat mode* mod, fixes to the *Droid mode*, plus under-the-hood changes.
+* **v1.2.0:** Added the *Android KitKat mode* mod, fixes to the *Droid mode*, plus under-the-hood changes.
 * **v1.1.5:** Minor bug fix for Better ITASA.
 * **v1.1.4:** Bugfix for the Christmas theme.
 * **v1.1.3:** Bugfix for Macs.
