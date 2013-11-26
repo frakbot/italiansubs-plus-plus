@@ -1,0 +1,102 @@
+@charset "CP850";
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\000031}}
+html.itasaplusplus {
+  /******************************************/
+  /*******     TEMPLATE GENERALE     ********/
+  /******************************************/
+  /* Fix sfondo */
+  /* Fix larghezza casella di ricerca */
+  /***********************************/
+  /*******     FORUM HOME     ********/
+  /***********************************/
+  /* Evita line wrapping in home forum nei nomi degli ultimi topic delle serie */
+  /**********************************************/
+  /*******     UNREAD REPLIES/TOPICS     ********/
+  /**********************************************/
+  /* ...con un fix per gli unread topic, che sono più stretti... */
+  /**********************************************/
+  /*******     UNREAD REPLIES/TOPICS     ********/
+  /**********************************************/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\000037}}
+html.itasaplusplus body {
+  background: #4f6fa7 url(http://www.italiansubs.net/templates/rt_rokwebify_j15/images/bg.png) 0 0 repeat-x;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000312}}
+html.itasaplusplus #search_form .input_text {
+  width: 72%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000321}}
+html.itasaplusplus ul.serieslist li p.desc span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000331}}
+html.itasaplusplus div#unreadreplies table tbody tr td,
+html.itasaplusplus div#unread table tbody tr td {
+  /* Aumenta la leggibilità mettendo più padding verticale nelle righe */
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-position: 100% 22px;
+  /* Rimuovi sfondo colorato topic sticky */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000340}}
+html.itasaplusplus div#unreadreplies table tbody tr td.stickybg, html.itasaplusplus div#unreadreplies table tbody tr td.stickybg2,
+html.itasaplusplus div#unread table tbody tr td.stickybg,
+html.itasaplusplus div#unread table tbody tr td.stickybg2 {
+  background: #F2F2F2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000344}}
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div,
+html.itasaplusplus div#unread table tbody tr td.subject div {
+  /* ...e di conseguenza le immagini "vai al topic" */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000345}}
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div span,
+html.itasaplusplus div#unread table tbody tr td.subject div span {
+  /* Evidenzia i titoli dei topic rispetto al resto... */
+  background-color: #D1D9DA;
+  width: 480px;
+  display: inline-block;
+  padding: 2px;
+  margin-bottom: 2px;
+  margin-top: -5px;
+  margin-left: -3px;
+  margin-right: -3px;
+  /* Metti tutti i nomi dei topic in grassetto */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000357}}
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div span a,
+html.itasaplusplus div#unread table tbody tr td.subject div span a {
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000363}}
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div a img,
+html.itasaplusplus div#unread table tbody tr td.subject div a img {
+  background-color: #D1D9DA;
+  padding: 4px 2px 3px 12px;
+  margin-top: -5px;
+  margin-right: -3px;
+  margin-left: 0px;
+  float: right;
+  height: 13px;
+  width: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000377}}
+html.itasaplusplus div#unread table tbody tr td.subject div span {
+  width: 461px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000386}}
+html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td {
+  /* Fix per i titoli dei topic sticky che finiscono sopra allo sfondo
+     con l'immagine della puntina... DAICAZZO! -_-' */
+  /* Idem per i locked/sticky (qui il padding è doppio perché ho 2 icone) */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000390}}
+html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.stickybg2, html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.lockedbg2 {
+  padding-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000395}}
+html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.locked_sticky2 {
+  padding-right: 52px;
+}

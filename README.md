@@ -6,7 +6,7 @@
 
 [![Get it it from the Chrome WebStore](https://developers.google.com/chrome/web-store/images/branding/ChromeWebStore_Badge_v2_340x96.png "Get it it from the Chrome WebStore")](https://chrome.google.com/webstore/detail/italiansubs++/pmgjnimdciihbnpncflnkcmjpkmklooh)
 
-The extension, its features and version history are in Italian, since the website is targeted to Italian speakers.
+The extension is in Italian, since the website it works on targets Italian speakers.
 
 ## Authors
 
@@ -14,38 +14,61 @@ The extension, its features and version history are in Italian, since the websit
 
 ## Features
  
-* **Better ITASA.** Miglioramenti e bugfix generici per tutto il sito.
-* **Apri tutte risposte non lette.** Visualizza il pulsante "Apri tutte" nella pagina "Risposte non lette" del forum. Il click sul pulsante apre tutti i thread in lista in nuove tab/finestre.
-* **Apri tutti i nuovi topic.** Visualizza il pulsante "Apri non letti" in ogni board del forum. Il click sul pulsante apre tutti i thread con risposte non lette della board corrente.
-* **Forum con più alto contrasto.** Aumenta il contrasto fra post consecutivi di ogni thread. I colori sono simili a quelli della versione 2 del forum.
-* **Separatore fra post.** Mostra un separatore fra post consecutivi di ogni thread.
-* **Post compatti.** Riduce al minimo le dimensioni dei post, rendendo la visualizzazione più compatta.
-* **Caratteri più piccoli.** Il font dei post ha una dimensione minore. Anche detta: "undici decimi".
-* *Caratteri più grandi.** Il font dei post ha una dimensione maggiore. Anche detta: "miopia vattene via".
-* **Droid Mode.** Usa il font "Roboto" di Android Ice Cream Sandwich in tutto il sito.
-* **Focus Mode.** Rende più chiara la distinzione fra board di serie TV con e senza nuovi messaggi da leggere nel forum).
-* **Highlighted Mode.** Evidenzia in rosso i pulsanti di PM e like ricevuti se ci sono elementi non letti.
-* **Yvonne ♥ Better Spoiler.** Aggiunge pulsanti per aprire e chiudere tutti gli spoiler in una pagina.
+* **Better ITASA.** Bugfixes and improvements to the whole website.
+* **Open all unread answers.** Shows the "Open all" button in the forum "Unread answers" page. A click on the button opens each thread in a separate tab/window.
+* **Open all new topics.** Shows the "Open unread" button in each forum page. A click on the button opens each thread with unread posts in a separate tab/window.
+* **High contrast forum.** Increase contrast between adjacent posts in a thread. Colors are similar to those of version 2 of the forum.
+* **Posts separator.** Add a separator between adjacent posts in a thread.
+* **Compact posts.** Reduces posts size to the minimum, compacting the view.
+* **Smaller fonts.** The font of the posts is smaller. AKA: "eleven tenths".
+* **Bigger fonts.** The font of the posts is bigger. AKA: "myopia I don't want ya".
+* **Droid Mode.** Use Android 4's "Roboto" font throughout the website.
+* **KitKat Mode.** Overhaul the website appearance to look Android-y and modern. *#HOLOYOLO!*
+* **Focus Mode.** Make the distinction between read and unread, with and without linked TV series, topics throughout the forum.
+* **Highlighted Mode.** Highlight the "PMs" and "likes" buttons in red when you have unread items in those categories.
+* **Yvonne ♥ Better Spoiler.** Adds buttons to expand or collapse all spoilers in a topic page.
+* **Android KitKat Mode.** New version of Droid mode, inspired to Android 4.4 KitKat. It can't be used together with Droid Mode, and it can change the behaviour of other mods.
+
+## Building
+
+### Prerequisites
+
+In order to build this extension, you need a working **NodeJS** and **ruby** environment. Then, open a shell and execute:
+
+	npm install grunt-cli bower yo generator-chrome-extension -g
+	gem install compass
+
+To install all of the required dependencies, move into the root of the project and call
+
+	npm install & bower install
+
+### Build tasks
+
+The list of supported task is:
+* `grunt`, executes JSHint, testing and builds the extension
+* `grunt jshint` executes JSHint on the project
+* `grunt build` builds the project (inside the `dist` folder and as a zip in the `package` folder)
 
 ## Version History
 
-* **v1.1.5:** Minor bug fix a Better ITASA
-* **v1.1.4:** bugfix per grafica natalizia.
-* **v1.1.3:** bugfix per sistemi Mac.
-* **v1.1.2:** l'apertura di tab multiple non fa perdere il focus alla tab corrente.
-* **v1.1.1:** bugfix generici.
-* **v1.1.0:** aggiunta opzione "Post compatti", aggiunto timing per l'apertura dei post, bugfix generici.
-* **v1.0.10:** bugfix generici.
-* **v1.0.9:** aggiunta opzione "Caratteri più grandi". Rimpiccioliti caratteri nella modalità "Caratteri più piccoli".
-* **v1.0.8:** aggiunta opzione "Yvonne ♥ Better Spoiler".
-* **v1.0.7:** aggiunta opzione "Highlighted Mode".
-* **v1.0.6:** bugfix generici.
-* **v1.0.5:** aggiunta opzione "Better Itasa", con fix generici su tutto il sito. Aggiunta possibilità di aprire solo alcuni topic selezionati dalle risposte non lette.
-* **v1.0.4:** aggiunta "Focus Mode".
-* **v1.0.3:** correzione su alcuni formati di pagina diversi e aggiunta supporto a domini di n-esimo livello.
-* **v1.0.2:** aggiunta modalità "Caratteri più piccoli" e "Droid Mode"
-* **v1.0.1:** bugfix
-* **v1.0:** prima release
+* **v1.2.0:** Added the *Android KitKat mode* mod, fixes to the *Droid mode*, plus under-the-hood changes.
+* **v1.1.5:** Minor bug fix for Better ITASA.
+* **v1.1.4:** Bugfix for the Christmas theme.
+* **v1.1.3:** Bugfix for Macs.
+* **v1.1.2:** Opening multiple tabs keeps focus on the current tab.
+* **v1.1.1:** Bugfixes.
+* **v1.1.0:** Added the *Compact posts* mod, added throttling when opening multiple posts, bugfixes.
+* **v1.0.10:** Bugfixes.
+* **v1.0.9:** Added the *Bigger fonts* mod. Made fonts smaller in the *Smaller fonts* mode.
+* **v1.0.8:** Added the *Yvonne ♥ Better Spoiler* mod.
+* **v1.0.7:** Added the *Highlighted Mode* mod.
+* **v1.0.6:** Bugfixes.
+* **v1.0.5:** Added the *Better Itasa* mod. Added the ability to selectively open unread posts.
+* **v1.0.4:** Added the *Focus Mode* mod.
+* **v1.0.3:** Fixes for some different page sizes, and added support for n-th level domains.
+* **v1.0.2:** Added the *Smaller fonts* and *Droid Mode* mods
+* **v1.0.1:** Bugfixes
+* **v1.0:** First release
 
 ## License
 

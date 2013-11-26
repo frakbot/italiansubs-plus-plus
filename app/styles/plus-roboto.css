@@ -1,0 +1,31 @@
+/* line 20, plus-roboto.scss */
+html.itasaplusplus body,
+html.itasaplusplus .ui-widget,
+html.itasaplusplus input,
+html.itasaplusplus textarea,
+html.itasaplusplus select,
+html.itasaplusplus .catbg,
+html.itasaplusplus .catbg2,
+html.itasaplusplus tr.catbg td,
+html.itasaplusplus tr.catbg2 td,
+html.itasaplusplus tr.catbg th,
+html.itasaplusplus tr.catbg2 th,
+html.itasaplusplus .smalltext,
+html.itasaplusplus tr.smalltext th,
+html.itasaplusplus .middletext,
+html.itasaplusplus #horiz-menu *,
+html.itasaplusplus .sum_gen *,
+html.itasaplusplus span#sum_sx_tx,
+html.itasaplusplus tr#titolosx span,
+html.itasaplusplus tr#titolodx span {
+  font-family: "Roboto", "Verdana", "Arial", "Helvetica", sans-serif !important;
+}
+/* line 24, plus-roboto.scss */
+html.itasaplusplus .smalltext {
+  font-size: 7.5pt;
+}
+/* line 29, plus-roboto.scss */
+html.itasaplusplus .bbc_tt,
+html.itasaplusplus code.bbc_code {
+  font-family: "Droid Sans Mono", "dejavu sans mono", "monaco", "lucida console", "courier new", monospace;
+}

@@ -1,0 +1,90 @@
+html.itasaplusplus {
+
+  ul.serieslist {
+
+    li p {
+      &.icon a img#icon_overlay {
+        &[src*="overlay_light_medium.png"] {
+          width:				78px;
+          height:				64px;
+          border:				2px solid #873029;
+          opacity:			0.8;
+        }
+
+        &[src*="overlay_medium.png"] {
+          background:			rgba(100%, 100%, 100%, 0.4);
+        }
+      }
+
+      &.desc {
+        a.subject {
+          color: 				#3e606f;
+          font-size: 			110%;
+          font-weight: 		bold;
+          float:				left;
+          width: 				98%;
+          margin: 			0px 0 3px 0;
+          background-color: 	#C3D0D1;
+          padding: 			2px;
+
+          &.read {
+            color:				#6c8e9d;
+            background-color: 	#EBEBEB;
+          }
+        }
+
+      }
+    }
+
+    &.other li p {
+      &.desc {
+        height: 			44px;
+        margin-top: 		1px;
+
+        a.subject {
+          font-size:			85%;
+          width: 				96%;
+          line-height:		1.2em;
+          padding: 			2px;
+          overflow:			hidden;
+          height: 			40px;
+          margin: 			0px 0 0px;
+        }
+      }
+
+      &.info {
+        height: 			44px;
+        margin-top: 		1px;
+      }
+
+      &.icon {
+        margin-top: 		1px;
+        background-color: 	transparent;
+
+        a img {
+          width: 		    52px;
+          padding:			0px;
+          height: 			43px;
+
+          &#icon_overlay{
+            position:			relative;
+            top:				  -43px;
+            z-index:			14000;
+            width: 				53px;
+            height: 			43px;
+
+            &[src*="overlay_light_small.png"] {
+              width:				49px;
+              height:				40px;
+              border:				2px solid #873029;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+
+
+}
