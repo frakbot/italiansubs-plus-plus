@@ -208,6 +208,19 @@ html.itasaplusplus div#horiz-menudown {
   background: #e5e5e5;
 }
 
+input[id^=modlgn_] {
+  background: none;
+  border: 0px;
+  color: #666;
+  border-bottom: 1px solid #aaa;
+}
+
+input[id^=modlgn_]:focus,
+input[id^=modlgn_]:hover {
+  border-bottom: 1px solid #33B5E5;
+  color: #000;
+}
+
 html.itasaplusplus #form-login > div span {
   opacity: 0;
 }
@@ -396,6 +409,13 @@ html.itasaplusplus .like_post {
   margin-right: 22px;
 }
 
+html.itasaplusplus .like_profile_box  span.upperframe,
+html.itasaplusplus .like_profile_box  span.upperframe span,
+html.itasaplusplus .like_profile_box  span.lowerframe,
+html.itasaplusplus .like_profile_box  span.lowerframe span {
+	background: #f7f7f7;
+}
+
 /* Posts BG: cards style */
 html.itasaplusplus .windowbg,
 html.itasaplusplus .windowbg2,
@@ -407,6 +427,12 @@ html.itasaplusplus .botslice {
   margin: 0 0 1rem;
   border-top: 1px solid #cfcfcf;
   border-radius: 3px;
+}
+
+html.itasaplusplus .windowbg span.topslice *,
+html.itasaplusplus .windowbg span.botslice *,
+html.itasaplusplus .windowbg #preview_body {
+  background-color: white;
 }
 
 html.itasaplusplus .post_separator {
@@ -902,6 +928,11 @@ html.itasaplusplus a#barralink {
 html.itasaplusplus .paginanews span#titolo {
   font-weight: 100;
   font-size: 28px;
+}
+
+html.itasaplusplus .paginanews span#titolo3 {
+  position: relative;
+  top: 10px;
 }
 
 html.itasaplusplus .roundedcornr_box_610475,

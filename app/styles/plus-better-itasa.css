@@ -1,5 +1,5 @@
 @charset "CP850";
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\000031}}
+/* line 1, plus-better-itasa.scss */
 html.itasaplusplus {
   /******************************************/
   /*******     TEMPLATE GENERALE     ********/
@@ -17,21 +17,24 @@ html.itasaplusplus {
   /**********************************************/
   /*******     UNREAD REPLIES/TOPICS     ********/
   /**********************************************/
+  /**********************************************/
+  /*******        LIKED POSTS LIST       ********/
+  /**********************************************/
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\000037}}
+/* line 7, plus-better-itasa.scss */
 html.itasaplusplus body {
   background: #4f6fa7 url(http://www.italiansubs.net/templates/rt_rokwebify_j15/images/bg.png) 0 0 repeat-x;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000312}}
+/* line 12, plus-better-itasa.scss */
 html.itasaplusplus #search_form .input_text {
   width: 72%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000321}}
+/* line 21, plus-better-itasa.scss */
 html.itasaplusplus ul.serieslist li p.desc span {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000331}}
+/* line 31, plus-better-itasa.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td,
 html.itasaplusplus div#unread table tbody tr td {
   /* Aumenta la leggibilità mettendo più padding verticale nelle righe */
@@ -40,18 +43,18 @@ html.itasaplusplus div#unread table tbody tr td {
   background-position: 100% 22px;
   /* Rimuovi sfondo colorato topic sticky */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000340}}
+/* line 40, plus-better-itasa.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.stickybg, html.itasaplusplus div#unreadreplies table tbody tr td.stickybg2,
 html.itasaplusplus div#unread table tbody tr td.stickybg,
 html.itasaplusplus div#unread table tbody tr td.stickybg2 {
   background: #F2F2F2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000344}}
+/* line 44, plus-better-itasa.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div,
 html.itasaplusplus div#unread table tbody tr td.subject div {
   /* ...e di conseguenza le immagini "vai al topic" */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000345}}
+/* line 45, plus-better-itasa.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div span,
 html.itasaplusplus div#unread table tbody tr td.subject div span {
   /* Evidenzia i titoli dei topic rispetto al resto... */
@@ -65,12 +68,12 @@ html.itasaplusplus div#unread table tbody tr td.subject div span {
   margin-right: -3px;
   /* Metti tutti i nomi dei topic in grassetto */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000357}}
+/* line 57, plus-better-itasa.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div span a,
 html.itasaplusplus div#unread table tbody tr td.subject div span a {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000363}}
+/* line 63, plus-better-itasa.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div a img,
 html.itasaplusplus div#unread table tbody tr td.subject div a img {
   background-color: #D1D9DA;
@@ -82,21 +85,25 @@ html.itasaplusplus div#unread table tbody tr td.subject div a img {
   height: 13px;
   width: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000377}}
+/* line 77, plus-better-itasa.scss */
 html.itasaplusplus div#unread table tbody tr td.subject div span {
   width: 461px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000386}}
+/* line 86, plus-better-itasa.scss */
 html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td {
   /* Fix per i titoli dei topic sticky che finiscono sopra allo sfondo
      con l'immagine della puntina... DAICAZZO! -_-' */
   /* Idem per i locked/sticky (qui il padding è doppio perché ho 2 icone) */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000390}}
+/* line 90, plus-better-itasa.scss */
 html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.stickybg2, html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.lockedbg2 {
   padding-right: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-better-itasa\.scss}line{font-family:\0000395}}
+/* line 95, plus-better-itasa.scss */
 html.itasaplusplus .topic_table:not(#unread, #unreadreplies) td.locked_sticky2 {
   padding-right: 52px;
+}
+/* line 105, plus-better-itasa.scss */
+html.itasaplusplus .like_profile_box {
+  width: auto;
 }
