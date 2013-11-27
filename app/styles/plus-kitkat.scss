@@ -1,0 +1,1276 @@
+/* Body */
+html.itasaplusplus {
+  background: #e5e5e5;
+}
+
+html.itasaplusplus body {
+  background: #e5e5e5 !important;
+  margin-top: 8px !important;
+}
+
+html.itasaplusplus #content_section, #header {
+  background: #e5e5e5;
+}
+
+html.itasaplusplus #header {
+  width: auto;
+}
+
+html.itasaplusplus body > div > #horiz-menudown ~ div:not(#footer) {
+  border: none !important;
+}
+
+html.itasaplusplus body div:not([class*=tipsy]) div:nth-child(4) {
+  /* WAT: border: none !important; */
+  /* TODO: should avoid matching .highslide as well */;
+}
+
+/* Bars and headers */
+html.itasaplusplus .cat_bar, .catbg {
+  font-family: "Roboto Condensed";
+  color: #666 !important;
+  margin-bottom: 8px !important;
+  background: transparent !important;
+}
+
+html.itasaplusplus div#upper_section div.user {
+  background: none;
+  border: none;
+}
+
+html.itasaplusplus #upper_section {
+  color: #000;
+  box-shadow: 0 1px 2px #aaa;
+  background: white !important;
+  border-top: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+html.itasaplusplus #upper_section ul li.greeting {
+  font-weight: 100;
+  font-size: 24px;
+  padding-bottom: 6px;
+}
+
+html.itasaplusplus #upper_section ul li:not(.greeting) {
+  font-size: 13px;
+  line-height: 1.2;
+  color: #333;
+}
+
+html.itasaplusplus #upper_section div.user p.avatar {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+html.itasaplusplus #upshrink {
+  content: url("../images/kitkat/header-toggle.png");
+}
+
+/* Main header */
+html.itasaplusplus div#header_j,
+html.itasaplusplus div#header_j .rk-1,
+html.itasaplusplus div#header_j .rk-2,
+html.itasaplusplus div#header,
+html.itasaplusplus div#header .rk-1,
+html.itasaplusplus div#header .rk-2  {
+  background: #e5e5e5;
+}
+
+html.itasaplusplus div#header_j .rk-6,
+html.itasaplusplus div#header .rk-6{
+  background: url("../images/kitkat/header-logo.png") no-repeat scroll 0 0 transparent;
+}
+
+html.itasaplusplus #header_j div.rk-3 a img,
+html.itasaplusplus #header div.rk-3 a img{
+  -webkit-mask-image: url("../images/kitkat/header-mask.png");
+}
+
+/* Main header bar */
+html.itasaplusplus div#horiz-menu,
+html.itasaplusplus div#horiz-menu ul {
+  background: none;
+  text-transform: uppercase;
+  background-color: #e5e5e5 !important;
+}
+
+html.itasaplusplus div#horiz-menu {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+html.itasaplusplus div#horiz-menu ul {
+  width: 100%;
+  border: #ccc 1px solid !important;
+}
+
+html.itasaplusplus ul.sf-menu a, ul.sf-menu a:visited {
+  color: #333 !important;
+}
+
+html.itasaplusplus div#horiz-menu > ul.sf-menu {
+  background-color: #e5e5e5 !important;
+  background-image: url("../images/kitkat/stripes-bg.png") !important;
+}
+
+html.itasaplusplus ul.sf-menu > li, .sf-menu > li:last-child {
+  border-bottom: #33b5e5 3px solid !important;
+  background-color: #e5e5e5 !important;
+  background-image: url("../images/kitkat/stripes-bg.png") !important;
+}
+
+html.itasaplusplus ul.sf-menu li.parent ul {
+  border: #ccc 1px solid !important;
+  border-radius: 0px !important;
+  position: absolute !important;
+  padding-top: 50px;
+  top: 2.1em;
+  left: -1px;
+  transition: opacity .3s ease-in-out;
+  min-width: 160px;
+  max-width: 200px;
+  display: none;
+}
+
+html.itasaplusplus .sf-menu > li li, .sf-menu > li > ul > li > ul > li {
+  background: #eee !important;
+  box-shadow: 0 2px 2px #999 !important;
+  border-bottom: 1px solid #ccc !important;
+  height: 30px !important !important;
+}
+
+html.itasaplusplus .sf-menu > li > ul > li > ul {
+  left: 160px !important;
+  top: -1px !important;
+}
+
+html.itasaplusplus ul.sf-menu > li.parent > ul > li > a {
+  height: 30px !important;
+  padding-top: 3px !important;
+}
+
+html.itasaplusplus .sf-menu li > li {
+  border-top: 1px solid #ddd !important;
+}
+
+html.itasaplusplus .sf-menu > li > ul >li:last-child, .sf-menu > li > ul li.last-child {
+  border-bottom: none !important;
+}
+
+html.itasaplusplus .sf-menu li:hover,
+html.itasaplusplus .sf-menu li.sfHover,
+html.itasaplusplus .sf-menu a:hover {
+  background: #ccc !important;
+}
+
+html.itasaplusplus .sf-menu li:focus,
+html.itasaplusplus .sf-menu li:active {
+  background: #59C1E8 !important;
+}
+
+html.itasaplusplus .sf-menu li:hover,
+html.itasaplusplus .sf-menu li.sfHover {
+  background-color: rgba(51, 181, 229, .2) !important;
+  background-image: url("../images/kitkat/stripes-bg.png") !important;
+}
+
+html.itasaplusplus .sf-menu li:hover,
+html.itasaplusplus .sf-menu li.sfHover,
+html.itasaplusplus .sf-menu a:focus {
+  background: #ccc !important;
+}
+
+html.itasaplusplus .sf-menu a:hover,
+html.itasaplusplus  .sf-menu a:active {
+  background: none !important;
+}
+
+html.itasaplusplus .sf-menu li .separator {
+  display: block;
+  border-left: 0px solid #fff;
+  border-top: 0px solid #CFDEFF;
+  padding: .75em 1em;
+  text-decoration: none;
+}
+
+html.itasaplusplus a > .sf-sub-indicator {
+  background: url("../images/kitkat/menu-arrows-2.png") no-repeat 0px 0px;
+}
+
+html.itasaplusplus .sf-menu li.parent.sfHover > a > .sf-sub-indicator {
+  background: url("../images/kitkat/menu-arrows-2.png") no-repeat -10px 0px;
+}
+
+/* Main header secondary bar */
+html.itasaplusplus div#horiz-menudown {
+  background: #e5e5e5;
+}
+
+html.itasaplusplus #form-login > div span {
+  opacity: 0;
+}
+
+html.itasaplusplus a.awesome {
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+  border-radius: 0px;
+  box-shadow: none;
+  color: #999;
+  cursor: pointer;
+  height: 16px;
+  border-left: #C8C8C8 1px solid;
+  border-right: #C8C8C8 1px solid;
+  border-top: #DFDFDF 1px solid;
+  border-bottom: #979797 1px solid;
+  margin: 0 3px 0 0;
+  padding: 3px 8px 4px;
+}
+
+html.itasaplusplus a.awesome:hover {
+  background: #A6DAED;
+  border-left-color: #30AAD2;
+  border-right-color: #30AAD2;
+  border-top-color: #59BBDC;
+  border-bottom-color: #2B98BC;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
+}
+
+html.itasaplusplus a.awesome:active {
+  background: #59C1E8;
+  border-left-color: #57BCE2;
+  border-right-color: #57BCE2;
+  border-top-color: #85D2EE;
+  border-bottom-color: #4597B5;
+}
+
+html.itasaplusplus a.awesome[title="LOGOUT"] > img {
+  content: url("../images/kitkat/logout.png");
+}
+
+/* Subs search field and autocomplete */
+
+html.itasaplusplus ::-webkit-input-placeholder {
+  color:    #f00;
+}
+
+html.itasaplusplus #ricerca input[type="text"] {
+  background-color: transparent;
+  border: 0px;
+  color: #666;
+  border-bottom: 1px solid #aaa;
+}
+
+html.itasaplusplus #ricerca input[type="text"]:focus,
+html.itasaplusplus #ricerca:hover input[type="text"] {
+  border-bottom: 1px solid #33B5E5;
+  color: #000;
+}
+
+html.itasaplusplus .ui-menu {
+  background: #eee;
+  border: #ccc 1px solid;
+  border-radius: 0px;
+  position: absolute;
+  left: -1px;
+  transition: opacity .3s ease-in-out;
+  padding: 0;
+}
+
+html.itasaplusplus .ui-menu li {
+  border-bottom: #ccc 1px solid;
+  text-align: left;
+  font-family: "Roboto Condensed";
+  font-size: 13px;
+}
+
+html.itasaplusplus .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus {
+  border: none;
+  border-radius: 0px;
+  background: #ccc;
+  font-weight: normal;
+  color: #026890;
+}
+
+html.itasaplusplus .ui-state-hover:active, .ui-widget-content .ui-state-hover:active, .ui-state-focus:active {
+  background: #59C1E8;
+}
+
+html.itasaplusplus .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
+  margin: 0;
+}
+
+/* "MyItasa affinità" badge */
+html.itasaplusplus .myitasa_affinita div {
+  background: #e5e5e5 !important;
+  border-color: #aaa !important;
+}
+
+html.itasaplusplus .myitasa_affinita div span {
+  margin-top: 7px !important;
+  color: #666 !important;
+}
+
+html.itasaplusplus .myitasa_affinita div span span {
+  margin-top: -6px !important;
+  margin-right: 1px !important;
+}
+
+/* Post title */
+html.itasaplusplus [id^="subject_"] {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #000;
+  line-height: 1.1;
+}
+
+html.itasaplusplus .keyinfo {
+  width: 65%;
+}
+
+/* Post details (reply number, timestamp) */
+html.itasaplusplus div.keyinfo > div.smalltext {
+  color: #666;
+  font-size: 11px;
+}
+
+html.itasaplusplus div.keyinfo > div.smalltext > strong {
+  font-weight: 600;
+}
+
+/* Post author */
+html.itasaplusplus div.poster * {
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  color: #666 !important;
+}
+
+html.itasaplusplus div.poster > h4 {
+  margin-bottom: 16px;
+}
+
+html.itasaplusplus div.poster > h4 > a {
+  font-size: 20px !important;
+  padding-left: 6px;
+}
+
+/* Horizontal rulers */
+html.itasaplusplus hr {
+  color: #aaa;
+}
+
+/* Post buttons */
+html.itasaplusplus .quickbutton {
+  width: auto;
+}
+
+html.itasaplusplus ul.quickbuttons {
+  background: transparent !important;
+  border: 0px !important;
+}
+
+html.itasaplusplus ul.quickbuttons li,
+html.itasaplusplus div.quickbutton ul,
+html.itasaplusplus div.quickbutton li,
+html.itasaplusplus ul.like_separated_button li.like_button a,
+html.itasaplusplus ul.like_separated_button li.unlike_button a {
+  background-color: transparent !important;
+  border: 0px;
+  border-right: 1px solid #aaa;
+}
+
+html.itasaplusplus div.quickbuttons li:last-child,
+html.itasaplusplus div.quickbutton ul,
+html.itasaplusplus div.quickbutton li,
+html.itasaplusplus ul.like_separated_button li.like_button a,
+html.itasaplusplus ul.like_separated_button li.unlike_button a {
+  border-right: 0px !important;
+}
+
+/* Like bars */
+html.itasaplusplus .like_post {
+  background: #eee;
+  border: 1px solid #aaa;
+  margin-right: 22px;
+}
+
+/* Posts BG: cards style */
+html.itasaplusplus .windowbg,
+html.itasaplusplus .windowbg2,
+html.itasaplusplus .topslice,
+html.itasaplusplus .botslice {
+  color: #000;
+  box-shadow: 0 1px 2px #aaa;
+  background: white !important;
+  margin: 0 0 1rem;
+  border-top: 1px solid #cfcfcf;
+  border-radius: 3px;
+}
+
+html.itasaplusplus .post_separator {
+  height: 0px !important;
+}
+
+html.itasaplusplus .windowbg .post_wrapper,
+html.itasaplusplus .windowbg2 .post_wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+html.itasaplusplus .botslice > *,
+html.itasaplusplus .topslice,
+html.itasaplusplus .botslice,
+html.itasaplusplus .topslice > *,
+html.itasaplusplus #quickModForm div span {
+  border-width: 0px !important;
+  box-shadow: 0px 0px rgba( 0, 0, 0, 0.0 ) !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+html.itasaplusplus #quickModForm div span:not(.topslice):not(.botslice) {
+  height: 0px !important;
+}
+
+html.itasaplusplus .botslice {
+  height: 5px;
+}
+
+/* Generic small text */
+html.itasaplusplus .smalltext {
+  color: #666;
+  font-size: 11px;
+}
+
+/* Links */
+html.itasaplusplus a {
+  color: #666 !important;
+}
+
+/* Button lists */
+html.itasaplusplus button, input[type="button"],
+html.itasaplusplus input[type="submit"],
+html.itasaplusplus input[type="reset"],
+html.itasaplusplus .buttonlist ul li a,
+html.itasaplusplus div#main_menu > ul > li > a {
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-tap-highlight-color: transparent !important;
+  background: #CECECE;
+  border-left-color: #C8C8C8;
+  border-right-color: #C8C8C8;
+  border-top-color: #DFDFDF;
+  border-bottom-color: #979797;
+  text-transform: uppercase;
+  color: #333 !important;
+}
+
+html.itasaplusplus .buttonlist ul li a.active,
+html.itasaplusplus button:enabled.active,
+html.itasaplusplus input[type="button"]:enabled.active,
+html.itasaplusplus input[type="submit"]:enabled.active,
+html.itasaplusplus input[type="reset"]:enabled.active,
+html.itasaplusplus div#main_menu > ul > li > .active {
+  background: #ADADAD;
+  border-left-color: #AAAAAA;
+  border-right-color: #AAAAAA;
+  border-top-color: #BBBBBB;
+  border-bottom-color: #777777;
+}
+
+html.itasaplusplus button:hover,
+html.itasaplusplus input[type="button"]:hover,
+html.itasaplusplus input[type="submit"]:hover,
+html.itasaplusplus input[type="reset"]:hover,
+html.itasaplusplus .buttonlist ul li a:hover,
+html.itasaplusplus div#main_menu > ul > li > a:hover {
+  background: #A6DAED;
+  border-left-color: #30AAD2;
+  border-right-color: #30AAD2;
+  border-top-color: #59BBDC;
+  border-bottom-color: #2B98BC;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
+}
+
+html.itasaplusplus .buttonlist ul li a:active,
+html.itasaplusplus button:enabled:active,
+html.itasaplusplus input[type="button"]:enabled:active,
+html.itasaplusplus input[type="submit"]:enabled:active,
+html.itasaplusplus input[type="reset"]:enabled:active,
+html.itasaplusplus div#main_menu > ul > li > a:active {
+  background: #59C1E8;
+  border-left-color: #57BCE2;
+  border-right-color: #57BCE2;
+  border-top-color: #85D2EE;
+  border-bottom-color: #4597B5;
+}
+
+/* Main menu */
+html.itasaplusplus .dropmenu > li > ul {
+  background: #eee;
+  border: #ccc 1px solid;
+  border-radius: 0px;
+  transition: opacity .3s ease-in-out;
+  padding: 0;
+  width: auto;
+  min-width: 220px;
+}
+
+html.itasaplusplus .dropmenu > li > ul > li {
+  border-left: 0px;
+  border-right: 0px;
+  background: #eee;
+  box-shadow: 0 2px 2px #999;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+/* the active button */
+html.itasaplusplus .dropmenu li a.active {
+  background-color: transparent;
+  border-radius: 0px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* the hover effects on level2 and 3 */
+html.itasaplusplus .dropmenu li li a:hover, .dropmenu li li:hover > a {
+  background: #ccc;
+}
+
+html.itasaplusplus .dropmenu li li a:active, .dropmenu li li:active > a {
+  background: #59C1E8;
+}
+
+html.itasaplusplus .dropmenu li:hover ul {
+  display: block;
+  opacity: 1;
+  -webkit-transition-property: height, -webkit-opacity;
+}
+
+html.itasaplusplus .dropmenu li li.additional_items {
+  background-color: #fff;
+}
+
+/* Search bar */
+html.itasaplusplus #search_form {
+  height: 30px;
+}
+
+html.itasaplusplus #search_form input {
+  position: relative;
+  top: 16%;
+}
+
+html.itasaplusplus #search_form input[type="submit"] {
+  height: 24px;
+}
+
+html.itasaplusplus #search_form input[type="text"] {
+  width: 55% !Important;
+  height: 18px;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid #aaa;
+}
+
+html.itasaplusplus #search_form input[type="text"]:after {
+  height: 8px;
+  border-right: 1px solid #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+  border-left: 1px solid #b2b2b2;
+  position: absolute;
+  width: 100%;
+  bottom: -1px;
+  left: 0;
+  content: "";
+  pointer-events:none;
+}
+
+html.itasaplusplus #search_form input[type="text"]:focus,
+html.itasaplusplus #search_form:hover input[type="text"] {
+  border-bottom: 1px solid #33B5E5;
+}
+
+/* Footer */
+html.itasaplusplus #footer_section,
+html.itasaplusplus #footer_section ul.reset * {
+  background: #e5e5e5;
+  color: #999 !important;
+}
+
+html.itasaplusplus div#footer,
+html.itasaplusplus div#footer .rk-1,
+html.itasaplusplus div#footer .rk-2 {
+  background: #e5e5e5;
+}
+
+html.itasaplusplus div#the-footer {
+  background: url("../images/kitkat/footer-logo.png") 50% 0 no-repeat;
+}
+
+html.itasaplusplus body > div:not(.tipsy) {
+  background: #e5e5e5 !important;
+}
+
+/* ============= HOME PAGE-SPECIFIC STUFF ==================== */
+
+html.itasaplusplus #mainbody > table td.left,
+html.itasaplusplus #mainbody > table td.right {
+  background: #fff;
+}
+
+html.itasaplusplus img#mainleft,
+html.itasaplusplus img#mainright {
+  background: none;
+}
+
+html.itasaplusplus #mainbody > table td.left > div > div:first-child table * {
+  font-family: "Roboto Condensed";
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.1;
+}
+
+html.itasaplusplus #mainbody > table td.left > div > div:first-child table {
+  border-bottom: #ddd 1px solid;
+  padding-bottom: 2px;
+}
+
+html.itasaplusplus #mainbody > table td.left div.moduletable h3,
+html.itasaplusplus #mainbody > table td.right div.moduletable h3{
+  border-bottom: none;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0;
+  margin: 1;
+}
+
+html.itasaplusplus .pagination h4 {
+  color: #666;
+  border-top: solid 1px #666;
+}
+
+html.itasaplusplus .pagination span a {
+  color: #666;
+  border:solid 1px #666;
+}
+
+html.itasaplusplus .pagination span.active a {
+  background:#666;
+  color: #FFF !important;
+  border:solid 1px #666;
+}
+
+html.itasaplusplus .pagination span.off {
+  color: #999 !important;
+  border:solid 1px #999;
+}
+
+html.itasaplusplus div.blogmodule,
+html.itasaplusplus div.myitasamodule {
+  color: #000;
+  box-shadow: 0 1px 2px #aaa;
+  padding: 8px;
+  background: white !important;
+  margin-bottom: 1rem;
+  border-top: 1px solid #aaa;
+  border-radius: 3px;
+  width: 288px;;
+}
+
+html.itasaplusplus div.blogmodule h4,
+html.itasaplusplus div.myitasamodule h4 {
+  background: none;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+html.itasaplusplus div.blogmodule h4 p,
+html.itasaplusplus div.myitasamodule h4 p {
+  padding-left: 0px;
+}
+
+html.itasaplusplus p#myitasabody {
+  margin-bottom: 0px !important;
+}
+
+html.itasaplusplus #blogbody {
+  padding-bottom: 3px;
+}
+
+html.itasaplusplus .categorie a,
+html.itasaplusplus .tabs a {
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 1px;
+  -webkit-tap-highlight-color: transparent !important;
+
+  background: #CECECE !important;
+  border-left-color: #C8C8C8;
+  border-right-color: #C8C8C8;
+  border-top-color: #DFDFDF;
+  border-bottom-color: #979797;
+  text-transform: uppercase;
+  color: #333 !important;
+
+  width: 80px !important;
+}
+
+html.itasaplusplus .tabs a {
+  width: auto !important;
+}
+
+html.itasaplusplus .categorie a.cathover,
+html.itasaplusplus .tabs a#t_active {
+  background: #adadad !important;
+}
+
+html.itasaplusplus .categorie a:hover,
+html.itasaplusplus .categorie a:focus,
+html.itasaplusplus .tabs a:hover,
+html.itasaplusplus .tabs a:focus,
+html.itasaplusplus .tabs a#t_active:hover,
+html.itasaplusplus .tabs a#t_active:focus {
+  background: #A6DAED !important;
+  border-left-color: #30AAD2;
+  border-right-color: #30AAD2;
+  border-top-color: #59BBDC;
+  border-bottom-color: #2B98BC;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
+}
+
+html.itasaplusplus categorie a:active,
+html.itasaplusplus .tabs a:active,
+html.itasaplusplus .tabs a#t_active:active {
+  background: #59C1E8 !important;
+  border-left-color: #57BCE2;
+  border-right-color: #57BCE2;
+  border-top-color: #85D2EE;
+  border-bottom-color: #4597B5;
+}
+
+
+/* ============= FORUMS LIST-SPECIFIC STUFF ==================== */
+
+html.itasaplusplus #newsfader {
+  color: #000;
+  box-shadow: 0 1px 2px #aaa;
+  padding: 8px;
+  background: white !important;
+  margin-bottom: 1rem;
+  border-top: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+html.itasaplusplus #newsfader .cat_bar h3 {
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Roboto"
+}
+
+html.itasaplusplus .content .windowbg,
+html.itasaplusplus .content .windowbg2 {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+html.itasaplusplus div#messageindex tr.catbg * {
+  background: #ccc;
+  color: #666;
+}
+
+html.itasaplusplus .stickybg {
+  background: #e0e0e0;
+}
+
+html.itasaplusplus .stickybg2 {
+  background: #eee;
+}
+
+/* ============= UNREAD LIST-SPECIFIC STUFF ==================== */
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div span[id^=msg_],
+html.itasaplusplus div#unread table tbody tr td.subject div span[id^=msg_] {
+  height: auto !important;
+  background: none;
+}
+
+html.itasaplusplus div#unreadreplies table tbody tr td.subject div a[id^=newicon] img,
+html.itasaplusplus div#unread table tbody tr td.subject div a[id^=newicon] img {
+  background: none;
+}
+
+html.itasaplusplus div#unreadreplies > table tbody tr td,
+html.itasaplusplus div#unread > table tbody tr td {
+  border-bottom: #ccc 1px solid !important;
+  border-radius: 0px;
+}
+
+html.itasaplusplus div#unreadreplies > table thead tr th,
+html.itasaplusplus div#unread > table thead tr th {
+  background: #ccc !important;
+  border: none;
+}
+
+html.itasaplusplus .description,
+html.itasaplusplus .description_board,
+html.itasaplusplus .plainbox {
+  background: #eee;
+}
+
+
+/* ============= PRIVATE MESSAGES-SPECIFIC STUFF ==================== */
+html.itasaplusplus div#personal_messages > form[name^=pmFolder] > table.table_grid thead tr {
+  background: #ccc !important;
+  border: none;
+}
+
+html.itasaplusplus div#personal_messages tr.catbg th {
+  background: #ccc;
+  border: none;
+  border-radius: 0px;
+}
+
+/* ============= SERIES DETAILS-SPECIFIC STUFF ==================== */
+html.itasaplusplus .bordosotto {
+  border-bottom: none !important;
+}
+
+html.itasaplusplus .bordodx {
+  border-right: none !important;
+}
+
+html.itasaplusplus .sum_gen {
+  font-weight: normal !important;
+}
+
+html.itasaplusplus .sum_gen span {
+  background: none !important;
+  border: none !important;
+  color: #333 !important;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+html.itasaplusplus .titolo {
+  background: none !important;
+  border: none !important;
+  color: #333 !important;
+  font-weight: 100 !important;
+  font-size: 28px !important;
+}
+
+html.itasaplusplus .Serie {
+  font-weight: 100 !important;
+}
+
+html.itasaplusplus .summary_top {
+  background: #ccc !important;
+  border: 1px solid #ccc !Important;
+  border-radius: 0px !important;
+}
+
+html.itasaplusplus .summary {
+  background: #fff !important;
+  border: 1px solid #ccc !Important;
+  border-radius: 0px !important;
+}
+
+html.itasaplusplus span#sum_top_sx,ù
+html.itasaplusplus span#sum_top_dx {
+  color: #333 !important;
+}
+
+
+/* ============= SUBS DETAILS-SPECIFIC STUFF ==================== */
+html.itasaplusplus #barrettina,
+html.itasaplusplus a#barralink {
+  color: #333 !important;
+  font-weight: normal;
+}
+
+html.itasaplusplus .paginanews span#titolo {
+  font-weight: 100;
+  font-size: 28px;
+}
+
+html.itasaplusplus .roundedcornr_box_610475,
+html.itasaplusplus .roundedcornr_top_610475,
+html.itasaplusplus .roundedcornr_content_610475,
+html.itasaplusplus .roundedcornr_bottom_610475,
+html.itasaplusplus .roundedcornr_bottom_610475 div {
+  background: none !important;
+}
+
+html.itasaplusplus .social {
+  background: none !important;
+}
+
+html.itasaplusplus .credit h3 {
+  background-color: #ccc !important;
+}
+
+html.itasaplusplus .sum_trama_top {
+  background: #ccc !important;
+  border: none !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+  padding-right:2px;
+}
+
+html.itasaplusplus .sum_trama {
+  border: #ccc 1px solid !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+
+html.itasaplusplus .jomentry2,
+html.itasaplusplus #jc_commentFormDiv {
+  background-color: #eee;
+}
+
+html.itasaplusplus .jomentry1 {
+  background-color: #f8f8f8;
+}
+
+/* ============== STAFF PANEL-SPECIFIC STUFF ============== */
+html.itasaplusplus .pannello_menu {
+  background: #CCC;
+}
+
+html.itasaplusplus .pannello_menu.submenu ul {
+  background: #eee;
+}
+
+html.itasaplusplus table.notifichepan table.bordercolor tbody tr td {
+  background: #ccc !important;
+  border: none;
+}
+
+html.itasaplusplus table.notifichepan div#postMoreOptions2 table.bordercolor2,
+html.itasaplusplus table.notifichepan table.bordercolor {
+  border-radius: 0px;
+  border-color: #ccc !important;
+}
+
+html.itasaplusplus table.notifichepan div#postMoreOptions2 table.bordercolor2 * {
+  border-radius: 0px;
+  border-color: #ccc !important;
+}
+
+html.itasaplusplus #postMoreOptions {
+  border: none;
+  padding: 0;
+}
+
+html.itasaplusplus div#postMoreOptions .windowbg,
+html.itasaplusplus div#postMoreOptions .windowbg2,
+html.itasaplusplus table.pannello table.bordercolor .windowbg,
+html.itasaplusplus table.pannello table.bordercolor .windowbg2,
+html.itasaplusplus table.bordercolor td.windowbg,
+html.itasaplusplus table.bordercolor td.windowbg2 {
+  border: none;
+  border-radius: 0px;
+  background: #fff !important;
+}
+
+html.itasaplusplus .titlebg,
+html.itasaplusplus .titlebg2,
+html.itasaplusplus tr.titlebg th,
+html.itasaplusplus tr.titlebg td,
+html.itasaplusplus tr.titlebg2 td {
+  background: #eee;
+}
+
+html.itasaplusplus td.catbg .pagination p,
+html.itasaplusplus td.catbg .pagination p *{
+  font-size: 11px;
+}
+
+html.itasaplusplus div#main_content_section table.tborder .windowbg,
+html.itasaplusplus div#main_content_section table.tborder .windowbg2{
+  background: none !important;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+html.itasaplusplus div.title_bar,
+html.itasaplusplus h3.titlebg {
+  background: none;
+}
+
+html.itasaplusplus div#main_admsection tr.catbg *,
+html.itasaplusplus div#mlist tr.catbg * {
+  background: #ccc;
+  color: #666;
+}
+
+/* ============= MYITASA-SPECIFIC STUFF ============= */
+html.itasaplusplus tr#titolosx td,
+html.itasaplusplus tr#titolodx td,
+html.itasaplusplus .nextbutton2,
+html.itasaplusplus .prevbutton2 {
+  background: #ccc !important;
+  border: #ccc 1px solid !important;
+  border-radius: 0px !important;
+}
+
+html.itasaplusplus tr#titolosx td span,
+html.itasaplusplus tr#titolodx td span {
+  color: #333 !important;
+}
+
+html.itasaplusplus .nextbutton2,
+html.itasaplusplus .prevbutton2 {
+  background-color: #ddd !important;
+  border: none !important;
+  width: 30px !important;
+}
+
+html.itasaplusplus .nextbutton,
+html.itasaplusplus .prevbutton {
+  width: 35px !important;
+  background: #ddd !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+html.itasaplusplus .nextbutton2 p,
+html.itasaplusplus .prevbutton2 p {
+  padding-left: 9px !important;
+}
+
+html.itasaplusplus .nextbutton p,
+html.itasaplusplus .prevbutton p {
+  padding-left: 9px !important;
+}
+
+html.itasaplusplus tr#titolodx span {
+  font-size: 16px !important;
+  font-weight: normal;
+}
+
+html.itasaplusplus td.partesinistra > table.listapref td,
+html.itasaplusplus div[id="Prossimi Episodi"] table.contenuto td,
+html.itasaplusplus div#Forum table.contenuto td,
+html.itasaplusplus div#Blog table.contenuto td {
+  background: #fff !important;
+}
+
+html.itasaplusplus div[id="Prossimi Episodi"] table.contenuto tr:hover td,
+html.itasaplusplus div#Forum table.contenuto tr:hover td,
+html.itasaplusplus div#Blog table.contenuto tr:hover td {
+  background: #ddd !important;
+}
+
+html.itasaplusplus div[id="Prossimi Episodi"] table.contenuto td *,
+html.itasaplusplus div#Forum table.contenuto td * {
+  font-family: "Roboto Condensed";
+  font-size: 13px;
+}
+
+html.itasaplusplus div#Forum table.contenuto td * {
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+}
+
+html.itasaplusplus div#Blog table.contenuto td span[style*="font-size:1.18em"] {
+  font-weight: 300;
+}
+
+html.itasaplusplus div#Blog table.contenuto td span[style*="font-size:0.88em"] {
+  font-family: "Roboto Condensed";
+  font-size: 10px !important;
+}
+
+html.itasaplusplus .general {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  background: #eee !important;
+  border-radius: 0px !important;
+  border: none !important;
+}
+
+/* ============ BLOG-SPECIFIC STUFF ============== */
+html.itasaplusplus div#horiz-menu div.login-box ul {
+  background: none !important;
+  border: none !important;
+  top: -34px;
+  right: -1px;
+  position: relative;
+}
+
+html.itasaplusplus div#horiz-menu div.login-box ul * {
+  border-bottom: none !important;
+  color: #333 !important;
+}
+
+html.itasaplusplus div.login-box .sf-menu > li:nth-child(2):hover,
+html.itasaplusplus div.login-box .sf-menu > li:first-child {
+  background: none !important;
+}
+
+html.itasaplusplus div.login-box .sf-menu > li:first-child {
+  position: absolute;
+  left: -130px;
+}
+
+html.itasaplusplus div.login-box .sf-menu > li:nth-child(2) {
+  position: relative;
+  left: -88px;
+  width: 80px;
+}
+
+html.itasaplusplus div.login-box .sf-menu > li:last-child {
+  position: absolute;
+  right: 0px;
+}
+
+html.itasaplusplus div#horiz-menu div.login-box li.sfHover ul {
+  background: none !important;
+  border: none !important;
+  top: 0px !important;
+  left: 10px !important;
+  position: relative;
+}
+
+html.itasaplusplus div#horiz-menu div.login-box li.sfHover ul {
+  float: left;
+}
+
+html.itasaplusplus div#horiz-menu div.login-box li.sfHover li {
+  background: #e5e5e5 !important;
+}
+
+html.itasaplusplus div#horiz-menu div.login-box li.sfHover li:hover {
+  background: #ccc !important;
+}
+
+html.itasaplusplus #content-slideshow {
+  width: 100% !important;
+  background: #eee !important;
+}
+
+html.itasaplusplus #content-slideshow .slideshow-nav {
+  width: 395px !important;
+}
+
+html.itasaplusplus #content-slideshow .slideshow-nav li a {
+  background-color: #eee !important;
+  border-color: #ccc !important;
+}
+
+html.itasaplusplus #content-slideshow .slideshow-nav li.on a {
+  background-color: #ccc !important;
+}
+
+html.itasaplusplus div#container.clear #content #loop > div {
+  color: #000;
+  padding: 8px;
+  margin-bottom: 0.5rem;
+  border-bottom: #ccc 1px solid;
+}
+
+html.itasaplusplus div#container.clear #content #loop img.attachment-thumbnail.wp-post-image {
+  box-shadow: none;
+}
+
+html.itasaplusplus div#container.clear #content #loop h2 a {
+  font-weight: 100 !important;
+  font-size: 24px;
+}
+
+html.itasaplusplus div#container.clear #content #pagination a {
+  font-weight: 300;
+  font-size: 20px;
+  background: #eee;
+  color: #333;
+}
+
+html.itasaplusplus div#container.clear #content #pagination a:hover {
+  background: #ccc;
+}
+
+html.itasaplusplus div#container.clear #content #pagination {
+  padding: 0px !important;
+}
+
+html.itasaplusplus div#container.clear #content {
+  border: none;
+}
+
+html.itasaplusplus div#container.clear div.sidebar {
+  background: #eee;
+  padding-top: 10px;
+}
+
+html.itasaplusplus div#container.clear div.sidebar .widget h3, .widget-small h3 {
+  color: #333;
+  background: none;
+  background-position: right;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc;
+}
+
+html.itasaplusplus div#container.clear div.sidebar .widget > ul > li > span:last-child {
+  color: #999 !important;
+}
+
+html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input {
+  color: #999;
+}
+
+
+html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input:hover,
+html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input:focus{
+  color: #333;
+}
+
+html.itasaplusplus a[rel="category tag"] {
+  color: #FFF !important;
+}
+
+html.itasaplusplus #container #content {
+  color: #000;
+  box-shadow: 0 1px 2px #aaa;
+  padding: 8px;
+  background: white !important;
+  margin-bottom: 1rem;
+  border-top: 1px solid #aaa;
+  border-radius: 3px;
+  border-bottom: none;
+}
+
+html.itasaplusplus #container #content .content-title {
+  width: 97% !important;
+}
+
+html.itasaplusplus #container #content div.post-meta h1 {
+  font-weight: 100 !important;
+  font-size: 28px;
+}
+
+html.itasaplusplus img#logo {
+  background: url("../images/kitkat/header-blog-logo.png") no-repeat;
+}
+
+html.itasaplusplus img#logo_dx {
+  background: url("../images/kitkat/header-blog-cubes.png") no-repeat;
+}
+
+html.itasaplusplus script + .wrapper #header div.rk-6 {
+  background: none;
+}
