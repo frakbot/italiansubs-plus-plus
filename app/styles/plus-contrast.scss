@@ -14,9 +14,12 @@ html.itasaplusplus {
     }
   }
   
-  .windowbg2.core_posts{
-      background-color:	#dfe4e9 !important;
-      color: 				    black;
-      margin-bottom:		0px !important;
-    }
+  .windowbg2.core_posts,
+  .windowbg2.clear {
+    background: #dfe4e9 !important;
+  }
+  
+  .likes_window .windowbg2 span {
+    background-color: white !important;
+  }
 }

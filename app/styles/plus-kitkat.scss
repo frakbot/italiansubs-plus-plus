@@ -462,8 +462,9 @@ html.itasaplusplus #quickModForm div span:not(.topslice):not(.botslice) {
   height: 0px !important;
 }
 
-html.itasaplusplus .botslice {
-  height: 5px;
+/* Popup lightboxes (eg. liked posts' users list) */
+#facebox .popup .content {
+  width: auto;
 }
 
 /* Generic small text */

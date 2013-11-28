@@ -10,9 +10,12 @@ html.itasaplusplus .windowbg2 .core_posts {
   color: black;
   margin-bottom: 0px !important;
 }
-/* line 17, plus-contrast.scss */
-html.itasaplusplus .windowbg2.core_posts {
-  background-color: #dfe4e9 !important;
-  color: black;
-  margin-bottom: 0px !important;
+/* line 18, plus-contrast.scss */
+html.itasaplusplus .windowbg2.core_posts,
+html.itasaplusplus .windowbg2.clear {
+  background: #dfe4e9 !important;
+}
+/* line 22, plus-contrast.scss */
+html.itasaplusplus .likes_window .windowbg2 span {
+  background-color: white !important;
 }
