@@ -1,39 +1,31 @@
-@charset "CP850";
 /* Body */
-/* line 2, plus-kitkat.scss */
 html.itasaplusplus {
   background: #e5e5e5;
 }
 
-/* line 6, plus-kitkat.scss */
 html.itasaplusplus body {
   background: #e5e5e5 !important;
   margin-top: 8px !important;
 }
 
-/* line 11, plus-kitkat.scss */
 html.itasaplusplus #content_section, #header {
   background: #e5e5e5;
 }
 
-/* line 15, plus-kitkat.scss */
 html.itasaplusplus #header {
   width: auto;
 }
 
-/* line 19, plus-kitkat.scss */
 html.itasaplusplus body > div > #horiz-menudown ~ div:not(#footer) {
   border: none !important;
 }
 
-/* line 23, plus-kitkat.scss */
 html.itasaplusplus body div:not([class*=tipsy]) div:nth-child(4) {
   /* WAT: border: none !important; */
-  /* TODO: should avoid matching .highslide as well */
+  /* TODO: should avoid matching .highslide as well */;
 }
 
 /* Bars and headers */
-/* line 29, plus-kitkat.scss */
 html.itasaplusplus .cat_bar, .catbg {
   font-family: "Roboto Condensed";
   color: #666 !important;
@@ -41,13 +33,11 @@ html.itasaplusplus .cat_bar, .catbg {
   background: transparent !important;
 }
 
-/* line 36, plus-kitkat.scss */
 html.itasaplusplus div#upper_section div.user {
   background: none;
   border: none;
 }
 
-/* line 41, plus-kitkat.scss */
 html.itasaplusplus #upper_section {
   color: #000;
   box-shadow: 0 1px 2px #aaa;
@@ -56,56 +46,48 @@ html.itasaplusplus #upper_section {
   border-radius: 3px;
 }
 
-/* line 49, plus-kitkat.scss */
 html.itasaplusplus #upper_section ul li.greeting {
   font-weight: 100;
   font-size: 24px;
   padding-bottom: 6px;
 }
 
-/* line 55, plus-kitkat.scss */
 html.itasaplusplus #upper_section ul li:not(.greeting) {
   font-size: 13px;
   line-height: 1.2;
   color: #333;
 }
 
-/* line 61, plus-kitkat.scss */
 html.itasaplusplus #upper_section div.user p.avatar {
   padding-left: 8px;
   padding-right: 8px;
 }
 
-/* line 66, plus-kitkat.scss */
 html.itasaplusplus #upshrink {
   content: url("../images/kitkat/header-toggle.png");
 }
 
 /* Main header */
-/* line 76, plus-kitkat.scss */
 html.itasaplusplus div#header_j,
 html.itasaplusplus div#header_j .rk-1,
 html.itasaplusplus div#header_j .rk-2,
 html.itasaplusplus div#header,
 html.itasaplusplus div#header .rk-1,
-html.itasaplusplus div#header .rk-2 {
+html.itasaplusplus div#header .rk-2  {
   background: #e5e5e5;
 }
 
-/* line 81, plus-kitkat.scss */
 html.itasaplusplus div#header_j .rk-6,
-html.itasaplusplus div#header .rk-6 {
+html.itasaplusplus div#header .rk-6{
   background: url("../images/kitkat/header-logo.png") no-repeat scroll 0 0 transparent;
 }
 
-/* line 86, plus-kitkat.scss */
 html.itasaplusplus #header_j div.rk-3 a img,
-html.itasaplusplus #header div.rk-3 a img {
+html.itasaplusplus #header div.rk-3 a img{
   -webkit-mask-image: url("../images/kitkat/header-mask.png");
 }
 
 /* Main header bar */
-/* line 92, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu,
 html.itasaplusplus div#horiz-menu ul {
   background: none;
@@ -113,38 +95,32 @@ html.itasaplusplus div#horiz-menu ul {
   background-color: #e5e5e5 !important;
 }
 
-/* line 98, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu {
   padding: 0;
   margin: 0;
   padding-bottom: 6px;
 }
 
-/* line 104, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu ul {
   width: 100%;
   border: #ccc 1px solid !important;
 }
 
-/* line 109, plus-kitkat.scss */
 html.itasaplusplus ul.sf-menu a, ul.sf-menu a:visited {
   color: #333 !important;
 }
 
-/* line 113, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu > ul.sf-menu {
   background-color: #e5e5e5 !important;
   background-image: url("../images/kitkat/stripes-bg.png") !important;
 }
 
-/* line 118, plus-kitkat.scss */
 html.itasaplusplus ul.sf-menu > li, .sf-menu > li:last-child {
   border-bottom: #33b5e5 3px solid !important;
   background-color: #e5e5e5 !important;
   background-image: url("../images/kitkat/stripes-bg.png") !important;
 }
 
-/* line 124, plus-kitkat.scss */
 html.itasaplusplus ul.sf-menu li.parent ul {
   border: #ccc 1px solid !important;
   border-radius: 0px !important;
@@ -158,7 +134,6 @@ html.itasaplusplus ul.sf-menu li.parent ul {
   display: none;
 }
 
-/* line 137, plus-kitkat.scss */
 html.itasaplusplus .sf-menu > li li, .sf-menu > li > ul > li > ul > li {
   background: #eee !important;
   box-shadow: 0 2px 2px #999 !important;
@@ -166,62 +141,52 @@ html.itasaplusplus .sf-menu > li li, .sf-menu > li > ul > li > ul > li {
   height: 30px !important !important;
 }
 
-/* line 144, plus-kitkat.scss */
 html.itasaplusplus .sf-menu > li > ul > li > ul {
   left: 160px !important;
   top: -1px !important;
 }
 
-/* line 149, plus-kitkat.scss */
 html.itasaplusplus ul.sf-menu > li.parent > ul > li > a {
   height: 30px !important;
   padding-top: 3px !important;
 }
 
-/* line 154, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li > li {
   border-top: 1px solid #ddd !important;
 }
 
-/* line 158, plus-kitkat.scss */
-html.itasaplusplus .sf-menu > li > ul > li:last-child, .sf-menu > li > ul li.last-child {
+html.itasaplusplus .sf-menu > li > ul >li:last-child, .sf-menu > li > ul li.last-child {
   border-bottom: none !important;
 }
 
-/* line 164, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li:hover,
 html.itasaplusplus .sf-menu li.sfHover,
 html.itasaplusplus .sf-menu a:hover {
   background: #ccc !important;
 }
 
-/* line 169, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li:focus,
 html.itasaplusplus .sf-menu li:active {
   background: #59C1E8 !important;
 }
 
-/* line 174, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li:hover,
 html.itasaplusplus .sf-menu li.sfHover {
-  background-color: rgba(51, 181, 229, 0.2) !important;
+  background-color: rgba(51, 181, 229, .2) !important;
   background-image: url("../images/kitkat/stripes-bg.png") !important;
 }
 
-/* line 181, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li:hover,
 html.itasaplusplus .sf-menu li.sfHover,
 html.itasaplusplus .sf-menu a:focus {
   background: #ccc !important;
 }
 
-/* line 186, plus-kitkat.scss */
 html.itasaplusplus .sf-menu a:hover,
-html.itasaplusplus .sf-menu a:active {
+html.itasaplusplus  .sf-menu a:active {
   background: none !important;
 }
 
-/* line 190, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li .separator {
   display: block;
   border-left: 0px solid #fff;
@@ -230,23 +195,19 @@ html.itasaplusplus .sf-menu li .separator {
   text-decoration: none;
 }
 
-/* line 198, plus-kitkat.scss */
 html.itasaplusplus a > .sf-sub-indicator {
   background: url("../images/kitkat/menu-arrows-2.png") no-repeat 0px 0px;
 }
 
-/* line 202, plus-kitkat.scss */
 html.itasaplusplus .sf-menu li.parent.sfHover > a > .sf-sub-indicator {
   background: url("../images/kitkat/menu-arrows-2.png") no-repeat -10px 0px;
 }
 
 /* Main header secondary bar */
-/* line 207, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menudown {
   background: #e5e5e5;
 }
 
-/* line 211, plus-kitkat.scss */
 input[id^=modlgn_] {
   background: none;
   border: 0px;
@@ -254,22 +215,19 @@ input[id^=modlgn_] {
   border-bottom: 1px solid #aaa;
 }
 
-/* line 219, plus-kitkat.scss */
 input[id^=modlgn_]:focus,
 input[id^=modlgn_]:hover {
   border-bottom: 1px solid #33B5E5;
   color: #000;
 }
 
-/* line 224, plus-kitkat.scss */
 html.itasaplusplus #form-login > div span {
   opacity: 0;
 }
 
-/* line 228, plus-kitkat.scss */
 html.itasaplusplus a.awesome {
   background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
   border-radius: 0px;
   box-shadow: none;
   color: #999;
@@ -283,17 +241,15 @@ html.itasaplusplus a.awesome {
   padding: 3px 8px 4px;
 }
 
-/* line 244, plus-kitkat.scss */
 html.itasaplusplus a.awesome:hover {
   background: #A6DAED;
   border-left-color: #30AAD2;
   border-right-color: #30AAD2;
   border-top-color: #59BBDC;
   border-bottom-color: #2B98BC;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px #30abd4;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
 }
 
-/* line 253, plus-kitkat.scss */
 html.itasaplusplus a.awesome:active {
   background: #59C1E8;
   border-left-color: #57BCE2;
@@ -302,18 +258,16 @@ html.itasaplusplus a.awesome:active {
   border-bottom-color: #4597B5;
 }
 
-/* line 261, plus-kitkat.scss */
 html.itasaplusplus a.awesome[title="LOGOUT"] > img {
   content: url("../images/kitkat/logout.png");
 }
 
 /* Subs search field and autocomplete */
-/* line 267, plus-kitkat.scss */
+
 html.itasaplusplus ::-webkit-input-placeholder {
-  color: #f00;
+  color:    #f00;
 }
 
-/* line 271, plus-kitkat.scss */
 html.itasaplusplus #ricerca input[type="text"] {
   background-color: transparent;
   border: 0px;
@@ -321,14 +275,12 @@ html.itasaplusplus #ricerca input[type="text"] {
   border-bottom: 1px solid #aaa;
 }
 
-/* line 279, plus-kitkat.scss */
 html.itasaplusplus #ricerca input[type="text"]:focus,
 html.itasaplusplus #ricerca:hover input[type="text"] {
   border-bottom: 1px solid #33B5E5;
   color: #000;
 }
 
-/* line 284, plus-kitkat.scss */
 html.itasaplusplus .ui-menu {
   background: #eee;
   border: #ccc 1px solid;
@@ -339,7 +291,6 @@ html.itasaplusplus .ui-menu {
   padding: 0;
 }
 
-/* line 294, plus-kitkat.scss */
 html.itasaplusplus .ui-menu li {
   border-bottom: #ccc 1px solid;
   text-align: left;
@@ -347,7 +298,6 @@ html.itasaplusplus .ui-menu li {
   font-size: 13px;
 }
 
-/* line 301, plus-kitkat.scss */
 html.itasaplusplus .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus {
   border: none;
   border-radius: 0px;
@@ -356,37 +306,31 @@ html.itasaplusplus .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-stat
   color: #026890;
 }
 
-/* line 309, plus-kitkat.scss */
 html.itasaplusplus .ui-state-hover:active, .ui-widget-content .ui-state-hover:active, .ui-state-focus:active {
   background: #59C1E8;
 }
 
-/* line 313, plus-kitkat.scss */
 html.itasaplusplus .ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
   margin: 0;
 }
 
 /* "MyItasa affinità" badge */
-/* line 318, plus-kitkat.scss */
 html.itasaplusplus .myitasa_affinita div {
   background: #e5e5e5 !important;
   border-color: #aaa !important;
 }
 
-/* line 323, plus-kitkat.scss */
 html.itasaplusplus .myitasa_affinita div span {
   margin-top: 7px !important;
   color: #666 !important;
 }
 
-/* line 328, plus-kitkat.scss */
 html.itasaplusplus .myitasa_affinita div span span {
   margin-top: -6px !important;
   margin-right: 1px !important;
 }
 
 /* Post title */
-/* line 334, plus-kitkat.scss */
 html.itasaplusplus [id^="subject_"] {
   font-weight: 300;
   font-size: 20px;
@@ -395,61 +339,51 @@ html.itasaplusplus [id^="subject_"] {
   line-height: 1.1;
 }
 
-/* line 342, plus-kitkat.scss */
 html.itasaplusplus .keyinfo {
   width: 65%;
 }
 
 /* Post details (reply number, timestamp) */
-/* line 347, plus-kitkat.scss */
 html.itasaplusplus div.keyinfo > div.smalltext {
   color: #666;
   font-size: 11px;
 }
 
-/* line 352, plus-kitkat.scss */
 html.itasaplusplus div.keyinfo > div.smalltext > strong {
   font-weight: 600;
 }
 
 /* Post author */
-/* line 357, plus-kitkat.scss */
 html.itasaplusplus div.poster * {
   font-family: "Roboto Condensed";
   font-size: 12px;
   color: #666 !important;
 }
 
-/* line 363, plus-kitkat.scss */
 html.itasaplusplus div.poster > h4 {
   margin-bottom: 16px;
 }
 
-/* line 367, plus-kitkat.scss */
 html.itasaplusplus div.poster > h4 > a {
   font-size: 20px !important;
   padding-left: 6px;
 }
 
 /* Horizontal rulers */
-/* line 373, plus-kitkat.scss */
 html.itasaplusplus hr {
   color: #aaa;
 }
 
 /* Post buttons */
-/* line 378, plus-kitkat.scss */
 html.itasaplusplus .quickbutton {
   width: auto;
 }
 
-/* line 382, plus-kitkat.scss */
 html.itasaplusplus ul.quickbuttons {
   background: transparent !important;
   border: 0px !important;
 }
 
-/* line 391, plus-kitkat.scss */
 html.itasaplusplus ul.quickbuttons li,
 html.itasaplusplus div.quickbutton ul,
 html.itasaplusplus div.quickbutton li,
@@ -460,7 +394,6 @@ html.itasaplusplus ul.like_separated_button li.unlike_button a {
   border-right: 1px solid #aaa;
 }
 
-/* line 401, plus-kitkat.scss */
 html.itasaplusplus div.quickbuttons li:last-child,
 html.itasaplusplus div.quickbutton ul,
 html.itasaplusplus div.quickbutton li,
@@ -470,23 +403,20 @@ html.itasaplusplus ul.like_separated_button li.unlike_button a {
 }
 
 /* Like bars */
-/* line 406, plus-kitkat.scss */
 html.itasaplusplus .like_post {
   background: #eee;
   border: 1px solid #aaa;
   margin-right: 22px;
 }
 
-/* line 415, plus-kitkat.scss */
-html.itasaplusplus .like_profile_box span.upperframe,
-html.itasaplusplus .like_profile_box span.upperframe span,
-html.itasaplusplus .like_profile_box span.lowerframe,
-html.itasaplusplus .like_profile_box span.lowerframe span {
-  background: #f7f7f7;
+html.itasaplusplus .like_profile_box  span.upperframe,
+html.itasaplusplus .like_profile_box  span.upperframe span,
+html.itasaplusplus .like_profile_box  span.lowerframe,
+html.itasaplusplus .like_profile_box  span.lowerframe span {
+	background: #f7f7f7;
 }
 
 /* Posts BG: cards style */
-/* line 423, plus-kitkat.scss */
 html.itasaplusplus .windowbg,
 html.itasaplusplus .windowbg2,
 html.itasaplusplus .topslice,
@@ -499,64 +429,55 @@ html.itasaplusplus .botslice {
   border-radius: 3px;
 }
 
-/* line 434, plus-kitkat.scss */
 html.itasaplusplus .windowbg span.topslice *,
 html.itasaplusplus .windowbg span.botslice *,
 html.itasaplusplus .windowbg #preview_body {
   background-color: white;
 }
 
-/* line 438, plus-kitkat.scss */
 html.itasaplusplus .post_separator {
   height: 0px !important;
 }
 
-/* line 443, plus-kitkat.scss */
 html.itasaplusplus .windowbg .post_wrapper,
 html.itasaplusplus .windowbg2 .post_wrapper {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 452, plus-kitkat.scss */
 html.itasaplusplus .botslice > *,
 html.itasaplusplus .topslice,
 html.itasaplusplus .botslice,
 html.itasaplusplus .topslice > *,
 html.itasaplusplus #quickModForm div span {
   border-width: 0px !important;
-  box-shadow: 0px 0px rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px rgba( 0, 0, 0, 0.0 ) !important;
   -webkit-border-radius: 0px !important;
   border-radius: 0px !important;
   margin: 0px;
   padding: 0px;
 }
 
-/* line 461, plus-kitkat.scss */
 html.itasaplusplus #quickModForm div span:not(.topslice):not(.botslice) {
   height: 0px !important;
 }
 
-/* line 465, plus-kitkat.scss */
 html.itasaplusplus .botslice {
   height: 5px;
 }
 
 /* Generic small text */
-/* line 470, plus-kitkat.scss */
 html.itasaplusplus .smalltext {
   color: #666;
   font-size: 11px;
 }
 
 /* Links */
-/* line 476, plus-kitkat.scss */
 html.itasaplusplus a {
   color: #666 !important;
 }
 
 /* Button lists */
-/* line 485, plus-kitkat.scss */
 html.itasaplusplus button, input[type="button"],
 html.itasaplusplus input[type="submit"],
 html.itasaplusplus input[type="reset"],
@@ -578,7 +499,6 @@ html.itasaplusplus div#main_menu > ul > li > a {
   color: #333 !important;
 }
 
-/* line 507, plus-kitkat.scss */
 html.itasaplusplus .buttonlist ul li a.active,
 html.itasaplusplus button:enabled.active,
 html.itasaplusplus input[type="button"]:enabled.active,
@@ -592,7 +512,6 @@ html.itasaplusplus div#main_menu > ul > li > .active {
   border-bottom-color: #777777;
 }
 
-/* line 520, plus-kitkat.scss */
 html.itasaplusplus button:hover,
 html.itasaplusplus input[type="button"]:hover,
 html.itasaplusplus input[type="submit"]:hover,
@@ -604,10 +523,9 @@ html.itasaplusplus div#main_menu > ul > li > a:hover {
   border-right-color: #30AAD2;
   border-top-color: #59BBDC;
   border-bottom-color: #2B98BC;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px #30abd4;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
 }
 
-/* line 534, plus-kitkat.scss */
 html.itasaplusplus .buttonlist ul li a:active,
 html.itasaplusplus button:enabled:active,
 html.itasaplusplus input[type="button"]:enabled:active,
@@ -622,7 +540,6 @@ html.itasaplusplus div#main_menu > ul > li > a:active {
 }
 
 /* Main menu */
-/* line 543, plus-kitkat.scss */
 html.itasaplusplus .dropmenu > li > ul {
   background: #eee;
   border: #ccc 1px solid;
@@ -633,7 +550,6 @@ html.itasaplusplus .dropmenu > li > ul {
   min-width: 220px;
 }
 
-/* line 553, plus-kitkat.scss */
 html.itasaplusplus .dropmenu > li > ul > li {
   border-left: 0px;
   border-right: 0px;
@@ -644,7 +560,6 @@ html.itasaplusplus .dropmenu > li > ul > li {
 }
 
 /* the active button */
-/* line 563, plus-kitkat.scss */
 html.itasaplusplus .dropmenu li a.active {
   background-color: transparent;
   border-radius: 0px;
@@ -653,46 +568,38 @@ html.itasaplusplus .dropmenu li a.active {
 }
 
 /* the hover effects on level2 and 3 */
-/* line 571, plus-kitkat.scss */
 html.itasaplusplus .dropmenu li li a:hover, .dropmenu li li:hover > a {
   background: #ccc;
 }
 
-/* line 575, plus-kitkat.scss */
 html.itasaplusplus .dropmenu li li a:active, .dropmenu li li:active > a {
   background: #59C1E8;
 }
 
-/* line 579, plus-kitkat.scss */
 html.itasaplusplus .dropmenu li:hover ul {
   display: block;
   opacity: 1;
   -webkit-transition-property: height, -webkit-opacity;
 }
 
-/* line 585, plus-kitkat.scss */
 html.itasaplusplus .dropmenu li li.additional_items {
   background-color: #fff;
 }
 
 /* Search bar */
-/* line 590, plus-kitkat.scss */
 html.itasaplusplus #search_form {
   height: 30px;
 }
 
-/* line 594, plus-kitkat.scss */
 html.itasaplusplus #search_form input {
   position: relative;
   top: 16%;
 }
 
-/* line 599, plus-kitkat.scss */
 html.itasaplusplus #search_form input[type="submit"] {
   height: 24px;
 }
 
-/* line 603, plus-kitkat.scss */
 html.itasaplusplus #search_form input[type="text"] {
   width: 55% !Important;
   height: 18px;
@@ -701,7 +608,6 @@ html.itasaplusplus #search_form input[type="text"] {
   border-bottom: 1px solid #aaa;
 }
 
-/* line 611, plus-kitkat.scss */
 html.itasaplusplus #search_form input[type="text"]:after {
   height: 8px;
   border-right: 1px solid #b2b2b2;
@@ -712,54 +618,47 @@ html.itasaplusplus #search_form input[type="text"]:after {
   bottom: -1px;
   left: 0;
   content: "";
-  pointer-events: none;
+  pointer-events:none;
 }
 
-/* line 625, plus-kitkat.scss */
 html.itasaplusplus #search_form input[type="text"]:focus,
 html.itasaplusplus #search_form:hover input[type="text"] {
   border-bottom: 1px solid #33B5E5;
 }
 
 /* Footer */
-/* line 631, plus-kitkat.scss */
 html.itasaplusplus #footer_section,
 html.itasaplusplus #footer_section ul.reset * {
   background: #e5e5e5;
   color: #999 !important;
 }
 
-/* line 638, plus-kitkat.scss */
 html.itasaplusplus div#footer,
 html.itasaplusplus div#footer .rk-1,
 html.itasaplusplus div#footer .rk-2 {
   background: #e5e5e5;
 }
 
-/* line 642, plus-kitkat.scss */
 html.itasaplusplus div#the-footer {
   background: url("../images/kitkat/footer-logo.png") 50% 0 no-repeat;
 }
 
-/* line 646, plus-kitkat.scss */
 html.itasaplusplus body > div:not(.tipsy) {
   background: #e5e5e5 !important;
 }
 
 /* ============= HOME PAGE-SPECIFIC STUFF ==================== */
-/* line 653, plus-kitkat.scss */
+
 html.itasaplusplus #mainbody > table td.left,
 html.itasaplusplus #mainbody > table td.right {
   background: #fff;
 }
 
-/* line 658, plus-kitkat.scss */
 html.itasaplusplus img#mainleft,
 html.itasaplusplus img#mainright {
   background: none;
 }
 
-/* line 662, plus-kitkat.scss */
 html.itasaplusplus #mainbody > table td.left > div > div:first-child table * {
   font-family: "Roboto Condensed";
   font-size: 12px;
@@ -767,15 +666,13 @@ html.itasaplusplus #mainbody > table td.left > div > div:first-child table * {
   line-height: 1.1;
 }
 
-/* line 669, plus-kitkat.scss */
 html.itasaplusplus #mainbody > table td.left > div > div:first-child table {
   border-bottom: #ddd 1px solid;
   padding-bottom: 2px;
 }
 
-/* line 675, plus-kitkat.scss */
 html.itasaplusplus #mainbody > table td.left div.moduletable h3,
-html.itasaplusplus #mainbody > table td.right div.moduletable h3 {
+html.itasaplusplus #mainbody > table td.right div.moduletable h3{
   border-bottom: none;
   font-weight: 300;
   font-size: 18px;
@@ -783,32 +680,27 @@ html.itasaplusplus #mainbody > table td.right div.moduletable h3 {
   margin: 1;
 }
 
-/* line 683, plus-kitkat.scss */
 html.itasaplusplus .pagination h4 {
   color: #666;
   border-top: solid 1px #666;
 }
 
-/* line 688, plus-kitkat.scss */
 html.itasaplusplus .pagination span a {
   color: #666;
-  border: solid 1px #666;
+  border:solid 1px #666;
 }
 
-/* line 693, plus-kitkat.scss */
 html.itasaplusplus .pagination span.active a {
-  background: #666;
+  background:#666;
   color: #FFF !important;
-  border: solid 1px #666;
+  border:solid 1px #666;
 }
 
-/* line 699, plus-kitkat.scss */
 html.itasaplusplus .pagination span.off {
   color: #999 !important;
-  border: solid 1px #999;
+  border:solid 1px #999;
 }
 
-/* line 705, plus-kitkat.scss */
 html.itasaplusplus div.blogmodule,
 html.itasaplusplus div.myitasamodule {
   color: #000;
@@ -818,10 +710,9 @@ html.itasaplusplus div.myitasamodule {
   margin-bottom: 1rem;
   border-top: 1px solid #aaa;
   border-radius: 3px;
-  width: 288px;
+  width: 288px;;
 }
 
-/* line 717, plus-kitkat.scss */
 html.itasaplusplus div.blogmodule h4,
 html.itasaplusplus div.myitasamodule h4 {
   background: none;
@@ -829,23 +720,19 @@ html.itasaplusplus div.myitasamodule h4 {
   font-size: 22px;
 }
 
-/* line 724, plus-kitkat.scss */
 html.itasaplusplus div.blogmodule h4 p,
 html.itasaplusplus div.myitasamodule h4 p {
   padding-left: 0px;
 }
 
-/* line 728, plus-kitkat.scss */
 html.itasaplusplus p#myitasabody {
   margin-bottom: 0px !important;
 }
 
-/* line 732, plus-kitkat.scss */
 html.itasaplusplus #blogbody {
   padding-bottom: 3px;
 }
 
-/* line 737, plus-kitkat.scss */
 html.itasaplusplus .categorie a,
 html.itasaplusplus .tabs a {
   border-width: 1px;
@@ -853,6 +740,7 @@ html.itasaplusplus .tabs a {
   border-color: transparent;
   border-radius: 1px;
   -webkit-tap-highlight-color: transparent !important;
+
   background: #CECECE !important;
   border-left-color: #C8C8C8;
   border-right-color: #C8C8C8;
@@ -860,21 +748,19 @@ html.itasaplusplus .tabs a {
   border-bottom-color: #979797;
   text-transform: uppercase;
   color: #333 !important;
+
   width: 80px !important;
 }
 
-/* line 755, plus-kitkat.scss */
 html.itasaplusplus .tabs a {
   width: auto !important;
 }
 
-/* line 760, plus-kitkat.scss */
 html.itasaplusplus .categorie a.cathover,
 html.itasaplusplus .tabs a#t_active {
   background: #adadad !important;
 }
 
-/* line 769, plus-kitkat.scss */
 html.itasaplusplus .categorie a:hover,
 html.itasaplusplus .categorie a:focus,
 html.itasaplusplus .tabs a:hover,
@@ -886,10 +772,9 @@ html.itasaplusplus .tabs a#t_active:focus {
   border-right-color: #30AAD2;
   border-top-color: #59BBDC;
   border-bottom-color: #2B98BC;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px #30abd4;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2), inset 0px 0px 0px 1px #30ABD4;
 }
 
-/* line 780, plus-kitkat.scss */
 html.itasaplusplus categorie a:active,
 html.itasaplusplus .tabs a:active,
 html.itasaplusplus .tabs a#t_active:active {
@@ -900,8 +785,9 @@ html.itasaplusplus .tabs a#t_active:active {
   border-bottom-color: #4597B5;
 }
 
+
 /* ============= FORUMS LIST-SPECIFIC STUFF ==================== */
-/* line 791, plus-kitkat.scss */
+
 html.itasaplusplus #newsfader {
   color: #000;
   box-shadow: 0 1px 2px #aaa;
@@ -912,14 +798,12 @@ html.itasaplusplus #newsfader {
   border-radius: 3px;
 }
 
-/* line 801, plus-kitkat.scss */
 html.itasaplusplus #newsfader .cat_bar h3 {
   font-weight: 300;
   font-size: 20px;
-  font-family: "Roboto";
+  font-family: "Roboto"
 }
 
-/* line 808, plus-kitkat.scss */
 html.itasaplusplus .content .windowbg,
 html.itasaplusplus .content .windowbg2 {
   border: none;
@@ -927,65 +811,56 @@ html.itasaplusplus .content .windowbg2 {
   box-shadow: none;
 }
 
-/* line 814, plus-kitkat.scss */
 html.itasaplusplus div#messageindex tr.catbg * {
   background: #ccc;
   color: #666;
 }
 
-/* line 819, plus-kitkat.scss */
 html.itasaplusplus .stickybg {
   background: #e0e0e0;
 }
 
-/* line 823, plus-kitkat.scss */
 html.itasaplusplus .stickybg2 {
   background: #eee;
 }
 
 /* ============= UNREAD LIST-SPECIFIC STUFF ==================== */
-/* line 829, plus-kitkat.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div span[id^=msg_],
 html.itasaplusplus div#unread table tbody tr td.subject div span[id^=msg_] {
   height: auto !important;
   background: none;
 }
 
-/* line 835, plus-kitkat.scss */
 html.itasaplusplus div#unreadreplies table tbody tr td.subject div a[id^=newicon] img,
 html.itasaplusplus div#unread table tbody tr td.subject div a[id^=newicon] img {
   background: none;
 }
 
-/* line 840, plus-kitkat.scss */
 html.itasaplusplus div#unreadreplies > table tbody tr td,
 html.itasaplusplus div#unread > table tbody tr td {
   border-bottom: #ccc 1px solid !important;
   border-radius: 0px;
 }
 
-/* line 846, plus-kitkat.scss */
 html.itasaplusplus div#unreadreplies > table thead tr th,
 html.itasaplusplus div#unread > table thead tr th {
   background: #ccc !important;
   border: none;
 }
 
-/* line 853, plus-kitkat.scss */
 html.itasaplusplus .description,
 html.itasaplusplus .description_board,
 html.itasaplusplus .plainbox {
   background: #eee;
 }
 
+
 /* ============= PRIVATE MESSAGES-SPECIFIC STUFF ==================== */
-/* line 859, plus-kitkat.scss */
 html.itasaplusplus div#personal_messages > form[name^=pmFolder] > table.table_grid thead tr {
   background: #ccc !important;
   border: none;
 }
 
-/* line 864, plus-kitkat.scss */
 html.itasaplusplus div#personal_messages tr.catbg th {
   background: #ccc;
   border: none;
@@ -993,22 +868,18 @@ html.itasaplusplus div#personal_messages tr.catbg th {
 }
 
 /* ============= SERIES DETAILS-SPECIFIC STUFF ==================== */
-/* line 871, plus-kitkat.scss */
 html.itasaplusplus .bordosotto {
   border-bottom: none !important;
 }
 
-/* line 875, plus-kitkat.scss */
 html.itasaplusplus .bordodx {
   border-right: none !important;
 }
 
-/* line 879, plus-kitkat.scss */
 html.itasaplusplus .sum_gen {
   font-weight: normal !important;
 }
 
-/* line 883, plus-kitkat.scss */
 html.itasaplusplus .sum_gen span {
   background: none !important;
   border: none !important;
@@ -1017,7 +888,6 @@ html.itasaplusplus .sum_gen span {
   font-size: 20px;
 }
 
-/* line 891, plus-kitkat.scss */
 html.itasaplusplus .titolo {
   background: none !important;
   border: none !important;
@@ -1026,52 +896,45 @@ html.itasaplusplus .titolo {
   font-size: 28px !important;
 }
 
-/* line 899, plus-kitkat.scss */
 html.itasaplusplus .Serie {
   font-weight: 100 !important;
 }
 
-/* line 903, plus-kitkat.scss */
 html.itasaplusplus .summary_top {
   background: #ccc !important;
   border: 1px solid #ccc !Important;
   border-radius: 0px !important;
 }
 
-/* line 909, plus-kitkat.scss */
 html.itasaplusplus .summary {
   background: #fff !important;
   border: 1px solid #ccc !Important;
   border-radius: 0px !important;
 }
 
-/* line 916, plus-kitkat.scss */
-html.itasaplusplus span#sum_top_sx, ù
+html.itasaplusplus span#sum_top_sx,ù
 html.itasaplusplus span#sum_top_dx {
   color: #333 !important;
 }
 
+
 /* ============= SUBS DETAILS-SPECIFIC STUFF ==================== */
-/* line 923, plus-kitkat.scss */
 html.itasaplusplus #barrettina,
 html.itasaplusplus a#barralink {
   color: #333 !important;
   font-weight: normal;
 }
 
-/* line 928, plus-kitkat.scss */
 html.itasaplusplus .paginanews span#titolo {
   font-weight: 100;
   font-size: 28px;
 }
 
-/* line 933, plus-kitkat.scss */
 html.itasaplusplus .paginanews span#titolo3 {
   position: relative;
   top: 10px;
 }
 
-/* line 942, plus-kitkat.scss */
 html.itasaplusplus .roundedcornr_box_610475,
 html.itasaplusplus .roundedcornr_top_610475,
 html.itasaplusplus .roundedcornr_content_610475,
@@ -1080,80 +943,67 @@ html.itasaplusplus .roundedcornr_bottom_610475 div {
   background: none !important;
 }
 
-/* line 946, plus-kitkat.scss */
 html.itasaplusplus .social {
   background: none !important;
 }
 
-/* line 950, plus-kitkat.scss */
 html.itasaplusplus .credit h3 {
   background-color: #ccc !important;
 }
 
-/* line 954, plus-kitkat.scss */
 html.itasaplusplus .sum_trama_top {
   background: #ccc !important;
   border: none !important;
   -webkit-border-radius: 0px !important;
   border-radius: 0px !important;
-  padding-right: 2px;
+  padding-right:2px;
 }
 
-/* line 962, plus-kitkat.scss */
 html.itasaplusplus .sum_trama {
   border: #ccc 1px solid !important;
   -webkit-border-radius: 0px !important;
   border-radius: 0px !important;
 }
 
-/* line 969, plus-kitkat.scss */
 html.itasaplusplus .jomentry2,
 html.itasaplusplus #jc_commentFormDiv {
   background-color: #eee;
 }
 
-/* line 973, plus-kitkat.scss */
 html.itasaplusplus .jomentry1 {
   background-color: #f8f8f8;
 }
 
 /* ============== STAFF PANEL-SPECIFIC STUFF ============== */
-/* line 978, plus-kitkat.scss */
 html.itasaplusplus .pannello_menu {
   background: #CCC;
 }
 
-/* line 982, plus-kitkat.scss */
 html.itasaplusplus .pannello_menu.submenu ul {
   background: #eee;
 }
 
-/* line 986, plus-kitkat.scss */
 html.itasaplusplus table.notifichepan table.bordercolor tbody tr td {
   background: #ccc !important;
   border: none;
 }
 
-/* line 992, plus-kitkat.scss */
 html.itasaplusplus table.notifichepan div#postMoreOptions2 table.bordercolor2,
 html.itasaplusplus table.notifichepan table.bordercolor {
   border-radius: 0px;
   border-color: #ccc !important;
 }
 
-/* line 997, plus-kitkat.scss */
 html.itasaplusplus table.notifichepan div#postMoreOptions2 table.bordercolor2 * {
   border-radius: 0px;
   border-color: #ccc !important;
 }
 
-/* line 1002, plus-kitkat.scss */
 html.itasaplusplus #postMoreOptions {
   border: none;
   padding: 0;
 }
 
-/* line 1012, plus-kitkat.scss */
 html.itasaplusplus div#postMoreOptions .windowbg,
 html.itasaplusplus div#postMoreOptions .windowbg2,
 html.itasaplusplus table.pannello table.bordercolor .windowbg,
@@ -1165,7 +1015,6 @@ html.itasaplusplus table.bordercolor td.windowbg2 {
   background: #fff !important;
 }
 
-/* line 1022, plus-kitkat.scss */
 html.itasaplusplus .titlebg,
 html.itasaplusplus .titlebg2,
 html.itasaplusplus tr.titlebg th,
@@ -1174,28 +1023,24 @@ html.itasaplusplus tr.titlebg2 td {
   background: #eee;
 }
 
-/* line 1027, plus-kitkat.scss */
 html.itasaplusplus td.catbg .pagination p,
-html.itasaplusplus td.catbg .pagination p * {
+html.itasaplusplus td.catbg .pagination p *{
   font-size: 11px;
 }
 
-/* line 1032, plus-kitkat.scss */
 html.itasaplusplus div#main_content_section table.tborder .windowbg,
-html.itasaplusplus div#main_content_section table.tborder .windowbg2 {
+html.itasaplusplus div#main_content_section table.tborder .windowbg2{
   background: none !important;
   border: none;
   border-radius: 0px;
   box-shadow: none;
 }
 
-/* line 1040, plus-kitkat.scss */
 html.itasaplusplus div.title_bar,
 html.itasaplusplus h3.titlebg {
   background: none;
 }
 
-/* line 1045, plus-kitkat.scss */
 html.itasaplusplus div#main_admsection tr.catbg *,
 html.itasaplusplus div#mlist tr.catbg * {
   background: #ccc;
@@ -1203,7 +1048,6 @@ html.itasaplusplus div#mlist tr.catbg * {
 }
 
 /* ============= MYITASA-SPECIFIC STUFF ============= */
-/* line 1054, plus-kitkat.scss */
 html.itasaplusplus tr#titolosx td,
 html.itasaplusplus tr#titolodx td,
 html.itasaplusplus .nextbutton2,
@@ -1213,13 +1057,11 @@ html.itasaplusplus .prevbutton2 {
   border-radius: 0px !important;
 }
 
-/* line 1061, plus-kitkat.scss */
 html.itasaplusplus tr#titolosx td span,
 html.itasaplusplus tr#titolodx td span {
   color: #333 !important;
 }
 
-/* line 1066, plus-kitkat.scss */
 html.itasaplusplus .nextbutton2,
 html.itasaplusplus .prevbutton2 {
   background-color: #ddd !important;
@@ -1227,7 +1069,6 @@ html.itasaplusplus .prevbutton2 {
   width: 30px !important;
 }
 
-/* line 1073, plus-kitkat.scss */
 html.itasaplusplus .nextbutton,
 html.itasaplusplus .prevbutton {
   width: 35px !important;
@@ -1236,25 +1077,21 @@ html.itasaplusplus .prevbutton {
   border-radius: 0px !important;
 }
 
-/* line 1081, plus-kitkat.scss */
 html.itasaplusplus .nextbutton2 p,
 html.itasaplusplus .prevbutton2 p {
   padding-left: 9px !important;
 }
 
-/* line 1086, plus-kitkat.scss */
 html.itasaplusplus .nextbutton p,
 html.itasaplusplus .prevbutton p {
   padding-left: 9px !important;
 }
 
-/* line 1090, plus-kitkat.scss */
 html.itasaplusplus tr#titolodx span {
   font-size: 16px !important;
   font-weight: normal;
 }
 
-/* line 1098, plus-kitkat.scss */
 html.itasaplusplus td.partesinistra > table.listapref td,
 html.itasaplusplus div[id="Prossimi Episodi"] table.contenuto td,
 html.itasaplusplus div#Forum table.contenuto td,
@@ -1262,38 +1099,32 @@ html.itasaplusplus div#Blog table.contenuto td {
   background: #fff !important;
 }
 
-/* line 1104, plus-kitkat.scss */
 html.itasaplusplus div[id="Prossimi Episodi"] table.contenuto tr:hover td,
 html.itasaplusplus div#Forum table.contenuto tr:hover td,
 html.itasaplusplus div#Blog table.contenuto tr:hover td {
   background: #ddd !important;
 }
 
-/* line 1109, plus-kitkat.scss */
 html.itasaplusplus div[id="Prossimi Episodi"] table.contenuto td *,
 html.itasaplusplus div#Forum table.contenuto td * {
   font-family: "Roboto Condensed";
   font-size: 13px;
 }
 
-/* line 1114, plus-kitkat.scss */
 html.itasaplusplus div#Forum table.contenuto td * {
   font-family: "Roboto Condensed";
   font-size: 14px;
 }
 
-/* line 1119, plus-kitkat.scss */
 html.itasaplusplus div#Blog table.contenuto td span[style*="font-size:1.18em"] {
   font-weight: 300;
 }
 
-/* line 1123, plus-kitkat.scss */
 html.itasaplusplus div#Blog table.contenuto td span[style*="font-size:0.88em"] {
   font-family: "Roboto Condensed";
   font-size: 10px !important;
 }
 
-/* line 1128, plus-kitkat.scss */
 html.itasaplusplus .general {
   margin-right: 0 !important;
   margin-left: 0 !important;
@@ -1303,7 +1134,6 @@ html.itasaplusplus .general {
 }
 
 /* ============ BLOG-SPECIFIC STUFF ============== */
-/* line 1137, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu div.login-box ul {
   background: none !important;
   border: none !important;
@@ -1312,38 +1142,32 @@ html.itasaplusplus div#horiz-menu div.login-box ul {
   position: relative;
 }
 
-/* line 1145, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu div.login-box ul * {
   border-bottom: none !important;
   color: #333 !important;
 }
 
-/* line 1151, plus-kitkat.scss */
 html.itasaplusplus div.login-box .sf-menu > li:nth-child(2):hover,
 html.itasaplusplus div.login-box .sf-menu > li:first-child {
   background: none !important;
 }
 
-/* line 1155, plus-kitkat.scss */
 html.itasaplusplus div.login-box .sf-menu > li:first-child {
   position: absolute;
   left: -130px;
 }
 
-/* line 1160, plus-kitkat.scss */
 html.itasaplusplus div.login-box .sf-menu > li:nth-child(2) {
   position: relative;
   left: -88px;
   width: 80px;
 }
 
-/* line 1166, plus-kitkat.scss */
 html.itasaplusplus div.login-box .sf-menu > li:last-child {
   position: absolute;
   right: 0px;
 }
 
-/* line 1171, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu div.login-box li.sfHover ul {
   background: none !important;
   border: none !important;
@@ -1352,44 +1176,36 @@ html.itasaplusplus div#horiz-menu div.login-box li.sfHover ul {
   position: relative;
 }
 
-/* line 1179, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu div.login-box li.sfHover ul {
   float: left;
 }
 
-/* line 1183, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu div.login-box li.sfHover li {
   background: #e5e5e5 !important;
 }
 
-/* line 1187, plus-kitkat.scss */
 html.itasaplusplus div#horiz-menu div.login-box li.sfHover li:hover {
   background: #ccc !important;
 }
 
-/* line 1191, plus-kitkat.scss */
 html.itasaplusplus #content-slideshow {
   width: 100% !important;
   background: #eee !important;
 }
 
-/* line 1196, plus-kitkat.scss */
 html.itasaplusplus #content-slideshow .slideshow-nav {
   width: 395px !important;
 }
 
-/* line 1200, plus-kitkat.scss */
 html.itasaplusplus #content-slideshow .slideshow-nav li a {
   background-color: #eee !important;
   border-color: #ccc !important;
 }
 
-/* line 1205, plus-kitkat.scss */
 html.itasaplusplus #content-slideshow .slideshow-nav li.on a {
   background-color: #ccc !important;
 }
 
-/* line 1209, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content #loop > div {
   color: #000;
   padding: 8px;
@@ -1397,18 +1213,15 @@ html.itasaplusplus div#container.clear #content #loop > div {
   border-bottom: #ccc 1px solid;
 }
 
-/* line 1216, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content #loop img.attachment-thumbnail.wp-post-image {
   box-shadow: none;
 }
 
-/* line 1220, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content #loop h2 a {
   font-weight: 100 !important;
   font-size: 24px;
 }
 
-/* line 1225, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content #pagination a {
   font-weight: 300;
   font-size: 20px;
@@ -1416,28 +1229,23 @@ html.itasaplusplus div#container.clear #content #pagination a {
   color: #333;
 }
 
-/* line 1232, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content #pagination a:hover {
   background: #ccc;
 }
 
-/* line 1236, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content #pagination {
   padding: 0px !important;
 }
 
-/* line 1240, plus-kitkat.scss */
 html.itasaplusplus div#container.clear #content {
   border: none;
 }
 
-/* line 1244, plus-kitkat.scss */
 html.itasaplusplus div#container.clear div.sidebar {
   background: #eee;
   padding-top: 10px;
 }
 
-/* line 1249, plus-kitkat.scss */
 html.itasaplusplus div#container.clear div.sidebar .widget h3, .widget-small h3 {
   color: #333;
   background: none;
@@ -1448,28 +1256,24 @@ html.itasaplusplus div#container.clear div.sidebar .widget h3, .widget-small h3 
   border-bottom: 1px solid #ccc;
 }
 
-/* line 1259, plus-kitkat.scss */
 html.itasaplusplus div#container.clear div.sidebar .widget > ul > li > span:last-child {
   color: #999 !important;
 }
 
-/* line 1263, plus-kitkat.scss */
 html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input {
   color: #999;
 }
 
-/* line 1269, plus-kitkat.scss */
+
 html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input:hover,
-html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input:focus {
+html.itasaplusplus div#container.clear div.sidebar #search-2 div.search #searchform input:focus{
   color: #333;
 }
 
-/* line 1273, plus-kitkat.scss */
 html.itasaplusplus a[rel="category tag"] {
   color: #FFF !important;
 }
 
-/* line 1277, plus-kitkat.scss */
 html.itasaplusplus #container #content {
   color: #000;
   box-shadow: 0 1px 2px #aaa;
@@ -1481,28 +1285,23 @@ html.itasaplusplus #container #content {
   border-bottom: none;
 }
 
-/* line 1288, plus-kitkat.scss */
 html.itasaplusplus #container #content .content-title {
   width: 97% !important;
 }
 
-/* line 1292, plus-kitkat.scss */
 html.itasaplusplus #container #content div.post-meta h1 {
   font-weight: 100 !important;
   font-size: 28px;
 }
 
-/* line 1297, plus-kitkat.scss */
 html.itasaplusplus img#logo {
   background: url("../images/kitkat/header-blog-logo.png") no-repeat;
 }
 
-/* line 1301, plus-kitkat.scss */
 html.itasaplusplus img#logo_dx {
   background: url("../images/kitkat/header-blog-cubes.png") no-repeat;
 }
 
-/* line 1305, plus-kitkat.scss */
 html.itasaplusplus script + .wrapper #header div.rk-6 {
   background: none;
 }

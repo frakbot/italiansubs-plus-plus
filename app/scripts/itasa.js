@@ -149,7 +149,7 @@ var afterLoad = function () {
           // imposto tutti i pulsanti con l'icona per la chiusura
           $('ul.reset.smalltext.quickbuttons > li.open-spoiler').removeClass('open-spoiler').addClass('close-spoiler');
           // apro tutti gli spoiler
-          $('div.spoiler > div.spoilerbody:not[visible]').parent().find('div.spoilerheader > input.spoilerbutton').click();
+          $('div.spoiler > div.spoilerbody:not(visible)').parent().find('div.spoilerheader > input.spoilerbutton').click();
         } else {
           // imposto tutti i pulsanti con l'icona per l'apertura
           $('ul.reset.smalltext.quickbuttons > li.close-spoiler').removeClass('close-spoiler').addClass('open-spoiler');

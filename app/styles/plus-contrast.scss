@@ -2,13 +2,21 @@ html.itasaplusplus {
 
   .windowbg2 {
     .post_wrapper,
+    .content,
     span.topslice ,
     span.topslice *,
     span.botslice,
-    span.botslice * {
+    span.botslice *,
+    .core_posts {
       background-color:	#dfe4e9 !important;
       color: 				    black;
       margin-bottom:		0px !important;
     }
   }
+  
+  .windowbg2.core_posts{
+      background-color:	#dfe4e9 !important;
+      color: 				    black;
+      margin-bottom:		0px !important;
+    }
 }

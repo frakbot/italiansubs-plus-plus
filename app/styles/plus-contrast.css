@@ -1,9 +1,17 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/fpontillo\/Workspace\/italiansubs-plus-plus\/app\/styles\/plus-contrast\.scss}line{font-family:\000038}}
+/* line 10, plus-contrast.scss */
 html.itasaplusplus .windowbg2 .post_wrapper,
+html.itasaplusplus .windowbg2 .content,
 html.itasaplusplus .windowbg2 span.topslice,
 html.itasaplusplus .windowbg2 span.topslice *,
 html.itasaplusplus .windowbg2 span.botslice,
-html.itasaplusplus .windowbg2 span.botslice * {
+html.itasaplusplus .windowbg2 span.botslice *,
+html.itasaplusplus .windowbg2 .core_posts {
+  background-color: #dfe4e9 !important;
+  color: black;
+  margin-bottom: 0px !important;
+}
+/* line 17, plus-contrast.scss */
+html.itasaplusplus .windowbg2.core_posts {
   background-color: #dfe4e9 !important;
   color: black;
   margin-bottom: 0px !important;
