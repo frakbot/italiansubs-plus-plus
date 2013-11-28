@@ -51,6 +51,7 @@ The list of supported task is:
 
 ## Version History
 
+* **v1.2.1:** Some fixes.
 * **v1.2.0:** Added the *Android KitKat mode* mod, fixes to the *Droid mode*, plus under-the-hood changes.
 * **v1.1.5:** Minor bug fix for Better ITASA.
 * **v1.1.4:** Bugfix for the Christmas theme.
