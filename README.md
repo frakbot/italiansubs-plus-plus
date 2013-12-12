@@ -45,7 +45,7 @@ To install all of the required dependencies, move into the root of the project a
 ### Build tasks
 
 The list of supported task is:
-* `grunt`, executes JSHint, testing and builds the extension
+* `grunt`, executes JSHint, tests and builds the extension
 * `grunt jshint` executes JSHint on the project
 * `grunt build` builds the project (inside the `dist` folder and as a zip in the `package` folder)
 
