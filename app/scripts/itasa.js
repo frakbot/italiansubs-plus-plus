@@ -168,6 +168,22 @@ var afterLoad = function () {
     }
   });
 
+ sendRequest({mStorage: 'send-resynch'}, function (response){
+    var num = $('div#horiz-menudown').parent().length;
+      if (response === 'true' && num > 0) {
+        $('div#horiz-menudown div#login form#form-login div span').append('<a class="awesome" id="resynch.button" href="javascript:void(0)">Invia <br>Resynch</a>');
+        $('.awesome').click(function () {
+		var num = window.prompt("Inserisci il numero del topic: ");
+            if (num>0) {
+			    var add1 = 'http://www.italiansubs.net/index.php?option=com_news&Itemid=13&task=upload&topic=';
+                var add2 = '&mode=resynch';
+                var link = add1.concat(num,add2);
+                window.location.href = link;
+            }
+		});
+		//tryTrack('Action', 'Bottone Resynch', window.location.pathname, 1);
+    }
+  });
   // Template per le aggiunte dopo il caricamento
   /*
    sendRequest({mStorage: 'nome-opzione'}, function(response) {
