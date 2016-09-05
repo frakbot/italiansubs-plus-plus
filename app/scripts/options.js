@@ -26,6 +26,7 @@ window.onload = function () {
   var chkHighlightedMenu = document.getElementById('chk-highlighted-menu');
   var chkYvonneSpoiler = document.getElementById('chk-yvonne-spoiler');
   var chkShorterPost = document.getElementById('chk-shorter-post');
+  var chkSendResynch = document.getElementById('chk-send-resynch');
 
   chkBetterItasa.checked = (localStorage['better-itasa'] === 'true');
   chkUnreadReplies.checked = (localStorage['unread-replies'] === 'true');
@@ -40,6 +41,7 @@ window.onload = function () {
   chkHighlightedMenu.checked = (localStorage['highlighted-menu'] === 'true');
   chkYvonneSpoiler.checked = (localStorage['yvonne-spoiler'] === 'true');
   chkShorterPost.checked = (localStorage['shorter-post'] === 'true');
+  chkSendResynch.checked = (localStorage['send-resynch'] === 'true');
 
   // Nascondo tutti i toggle
   var toggles = $('table.options-table tr td a span.ui-icon').parent();
@@ -165,4 +167,11 @@ window.onload = function () {
     localStorage['yvonne-spoiler'] = check;
     tryTrack('Opzioni', 'Yvonne Spoiler Mode', now(), check ? 1 : -1);
   });
+  
+  $('#chk-send-resynch').change(function () {
+    var check = $('#chk-send-resynch').is(':checked');
+    localStorage['send-resynch'] = check;
+    tryTrack('Opzioni', 'Invia Resynch', now(), check ? 1 : -1);
+  });
+  
 };
